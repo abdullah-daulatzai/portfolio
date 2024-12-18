@@ -2,7 +2,11 @@
 export default {
   content: ['./index.html', './client/**/*.tsx'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        audiowide: ['Audiowide', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
