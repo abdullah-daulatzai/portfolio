@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <>
-      <div className="py-10 text-center">
+      <div className="text-cente  py-10">
         <div className="font-audiowide flex flex-row items-center justify-center space-y-2">
           <div className="text-shadow place-content-around font-sans text-4xl font-bold tracking-wide sm:text-3xl md:text-4xl lg:text-3xl">
             <h1 className="font-audiowide inline text-white">Hello,</h1>
@@ -14,6 +14,10 @@ export default function AboutMe() {
               FULL STACK DEVELOPER
             </h2>
           </div>
+        </div>
+        <div className="  mt-32 flex flex-row">
+          <div>Photo</div>
+          <div className="ml-6">About Me</div>
         </div>
       </div>
     </>
