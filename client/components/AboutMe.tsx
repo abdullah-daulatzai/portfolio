@@ -15,33 +15,34 @@ export default function AboutMe() {
             </h2>
           </div>
         </div>
-        <div className="  mt-32 flex flex-row">
+        <div className="ml-16 mt-32 flex flex-row">
           <div>
-            Photo
-            <img src="public/Myimg.png" alt="abdullah" />
+            <img
+              src="public/Myimg.png"
+              alt="Photo"
+              className="h-40 w-40 rounded-full"
+            />
           </div>
-          <div className="ml-6">
-            About Me
-            <div className="">
-              <p className="">
-                I’m a Full-Stack Developer with a degree in Computer Science and
-                Technology, and I’ve gained practical experience in building
-                applications using a modern tech stack. I’m passionate about
-                writing clean, efficient, and maintainable code, and I’m always
-                looking for ways to improve. I enjoy learning new technologies,
-                taking on challenges, and I’m always thirsty to learn more and
-                grow my skills. Driven by curiosity and a passion for growth,
-                I’m eager to contribute to innovative projects and build
-                impactful digital solutions. I really value working with others,
-                as I believe great ideas come from collaboration and open
-                communication. I’m excited to get involved in meaningful
-                projects, learn from others, and develop my career as a
-                developer. Technologies I’ve worked with include: HTML, CSS,
-                Bootstrap, Tailwind CSS JavaScript, React.js, TypeScript
-                Express.js, Node.js, C#, ASP.Net Core MVC SQLite, MySQL, Git,
-                Superagent Thanks for visiting my site!
-              </p>
-            </div>
+          <div className="mt-6 max-w-3xl  text-white">
+            <h3 className="text-xl font-semibold">About Me</h3>
+            <p className="mt-4 text-justify  text-base">
+              I’m a Full-Stack Developer with a degree in Computer Science and
+              Technology, and I’ve gained practical experience in building
+              applications using a modern tech stack. I’m passionate about
+              writing clean, efficient, and maintainable code, and I’m always
+              looking for ways to improve. I enjoy learning new technologies,
+              taking on challenges, and I’m always thirsty to learn more and
+              grow my skills. Driven by curiosity and a passion for growth, I’m
+              eager to contribute to innovative projects and build impactful
+              digital solutions. I really value working with others, as I
+              believe great ideas come from collaboration and open
+              communication. I’m excited to get involved in meaningful projects,
+              learn from others, and develop my career as a developer.
+              Technologies I’ve worked with include: HTML, CSS, Bootstrap,
+              Tailwind CSS, JavaScript, React.js, TypeScript, Express.js,
+              Node.js, C#, ASP.Net Core MVC, SQLite, MySQL, Git, Superagent.
+              Thanks for visiting my site!
+            </p>
           </div>
         </div>
       </div>
