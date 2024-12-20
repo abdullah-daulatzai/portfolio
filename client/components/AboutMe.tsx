@@ -16,11 +16,14 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="  mt-32 flex flex-row">
-          <div>Photo</div>
+          <div>
+            Photo
+            <img src="public/Myimg.png" alt="abdullah" />
+          </div>
           <div className="ml-6">
             About Me
-            <div className="flex flex-col">
-              <p>
+            <div className="">
+              <p className="">
                 I’m a Full-Stack Developer with a degree in Computer Science and
                 Technology, and I’ve gained practical experience in building
                 applications using a modern tech stack. I’m passionate about
