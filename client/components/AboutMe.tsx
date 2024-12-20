@@ -15,8 +15,8 @@ export default function AboutMe() {
             </h2>
           </div>
         </div>
-        <div className="ml-16 mt-32 flex flex-row">
-          <div>
+        <div className=" mt-32 flex flex-row">
+          <div className="ml-16">
             <img
               src="public/Myimg.png"
               alt="Photo"
@@ -25,7 +25,7 @@ export default function AboutMe() {
           </div>
           <div className="mt-6 max-w-3xl  text-white">
             <h3 className="text-xl font-semibold">About Me</h3>
-            <p className="mt-4 text-justify  text-base">
+            <p className="mt-4 max-w-xl text-justify text-base">
               I’m a Full-Stack Developer with a degree in Computer Science and
               Technology, and I’ve gained practical experience in building
               applications using a modern tech stack. I’m passionate about
