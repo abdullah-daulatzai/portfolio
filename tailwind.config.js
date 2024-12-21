@@ -5,6 +5,10 @@ export default {
     extend: {
       fontFamily: {
         audiowide: ['Audiowide', 'sans-serif'],
+        lobster: ['Lobster', 'cursive'],
+        raleway: ['Raleway', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },

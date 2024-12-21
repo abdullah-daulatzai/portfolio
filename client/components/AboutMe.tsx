@@ -2,15 +2,15 @@ export default function AboutMe() {
   return (
     <>
       <div className="py-10">
-        <div className="font-audiowide flex flex-col items-center justify-center space-y-2 md:flex-row">
+        <div className="font-audiowide sm:text-md flex flex-col items-center justify-center space-y-2 md:flex-row">
           <div className="text-shadow font-sans text-4xl font-bold tracking-wide sm:text-3xl md:text-4xl lg:text-3xl">
             <h1 className="font-audiowide inline text-white">Hello,</h1>
             <h2 className="mt-4 font-bold text-white sm:mt-2">
               I'm <span className="text-blue-500">Abdullah!</span>
             </h2>
           </div>
-          <div className="mt-2 sm:mt-2 md:mt-4 lg:mt-4">
-            <h2 className="text-xl tracking-wider text-white sm:text-3xl md:text-4xl lg:text-2xl">
+          <div className="mt-2 sm:mt-2 md:mt-4  lg:mt-4">
+            <h2 className="font-montserrat text-xl tracking-wider text-white sm:text-3xl md:text-4xl lg:ml-16 lg:text-2xl">
               FULL STACK DEVELOPER
             </h2>
           </div>
@@ -20,7 +20,7 @@ export default function AboutMe() {
             <img
               src="public/Myimg.png"
               alt="Photo"
-              className=" border-lightBlue-500 h-auto w-full max-w-xs border-4 border-double bg-gray-400 object-cover hover:bg-blue-900 md:w-60 lg:pt-20"
+              className=" h-auto w-full max-w-xs border-4 border-double border-green-700 bg-gray-400 object-cover hover:bg-blue-900 md:w-60 lg:pt-20"
             />
           </div>
           <div className="max-w-3xl px-4 sm:px-8 md:px-0 lg:mt-32">
