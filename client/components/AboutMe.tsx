@@ -16,18 +16,18 @@ export default function AboutMe() {
           </div>
         </div>
         <div className="mt-10 flex flex-col gap-y-10 md:flex-row md:gap-x-10">
-          <div className="flex-none self-center md:ml-[3%]">
+          <div className="flex-none self-center md:ml-[3%] lg:ml-[15%]">
             <img
               src="public/Myimg.png"
               alt="Photo"
-              className="border-lightBlue-500 h-auto w-full max-w-xs border-4 border-double bg-gray-500 object-cover hover:bg-blue-900 md:w-60"
+              className=" border-lightBlue-500 h-auto w-full max-w-xs border-4 border-double bg-gray-400 object-cover hover:bg-blue-900 md:w-60 lg:pt-20"
             />
           </div>
-          <div className="max-w-3xl px-4 sm:px-8 md:px-0">
+          <div className="max-w-3xl px-4 sm:px-8 md:px-0 lg:mt-32">
             <h3 className="font-audiowide text-2xl font-semibold text-blue-300">
               About Me
             </h3>
-            <p className="mt-4 text-justify text-base text-gray-300 sm:text-lg">
+            <p className="lg:text-md sm:text-md mt-4 max-w-xl  text-justify text-base text-gray-300">
               I’m a Full-Stack Developer with a degree in Computer Science and
               Technology, and I’ve gained practical experience in building
               applications using a modern tech stack. I’m passionate about
