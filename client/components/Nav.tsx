@@ -1,7 +1,28 @@
+import React, { useState, useEffect } from 'react'
+
 export default function Nav() {
+  const [isScrolled, setIsScrolled] = useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true)
+      } else {
+        setIsScrolled(false)
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll)
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
   return (
     <>
-      <div className="flex items-center justify-between p-4 md:p-10">
+      <div
+        className={`fixed left-0 top-0 z-50 flex w-full items-center justify-center p-4 transition-all duration-300 md:p-10 
+          ${isScrolled ? 'bg-white-200  shadow-lg backdrop-blur-lg' : 'bg-transparent shadow-none backdrop-blur-none'}
+        `}
+      >
         <ul className="flex space-x-6 text-white md:space-x-20">
           <li className="hover:text-blue-500">
             <a href="">Home</a>
