@@ -15,17 +15,19 @@ export default function AboutMe() {
             </h2>
           </div>
         </div>
-        <div className=" mt-32 flex flex-row">
-          <div className="ml-16">
+        <div className=" mt-32 flex flex-row gap-x-10">
+          <div className="ml-10 mt-6  flex-none  lg:ml-[3%]">
             <img
               src="public/Myimg.png"
               alt="Photo"
-              className="h-40 w-40 rounded-full"
+              className="  border-lightBlue-500 h-auto w-60 border-4 border-double bg-gray-500 object-cover pt-20 hover:bg-blue-900"
             />
           </div>
-          <div className="mt-6 max-w-3xl  text-white">
-            <h3 className="text-xl font-semibold">About Me</h3>
-            <p className="mt-4 max-w-xl text-justify text-base">
+          <div className="mt-6 max-w-3xl">
+            <h3 className="font-audiowide text-2xl font-semibold text-blue-300">
+              About Me
+            </h3>
+            <p className="mt-4 max-w-lg text-justify text-base text-gray-300">
               I’m a Full-Stack Developer with a degree in Computer Science and
               Technology, and I’ve gained practical experience in building
               applications using a modern tech stack. I’m passionate about
