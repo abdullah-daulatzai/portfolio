@@ -1,33 +1,33 @@
 export default function AboutMe() {
   return (
     <>
-      <div className="text-cente  py-10">
-        <div className="font-audiowide flex flex-row items-center justify-center space-y-2">
-          <div className="text-shadow place-content-around font-sans text-4xl font-bold tracking-wide sm:text-3xl md:text-4xl lg:text-3xl">
+      <div className="py-10">
+        <div className="font-audiowide flex flex-col items-center justify-center space-y-2 md:flex-row">
+          <div className="text-shadow font-sans text-4xl font-bold tracking-wide sm:text-3xl md:text-4xl lg:text-3xl">
             <h1 className="font-audiowide inline text-white">Hello,</h1>
             <h2 className="mt-4 font-bold text-white sm:mt-2">
               I'm <span className="text-blue-500">Abdullah!</span>
             </h2>
           </div>
           <div className="mt-2 sm:mt-2 md:mt-4 lg:mt-4">
-            <h2 className="ml-2 text-xl tracking-wider text-white sm:ml-8 sm:text-3xl md:ml-16 md:text-4xl lg:text-2xl">
+            <h2 className="text-xl tracking-wider text-white sm:text-3xl md:text-4xl lg:text-2xl">
               FULL STACK DEVELOPER
             </h2>
           </div>
         </div>
-        <div className=" mt-32 flex flex-row gap-x-10">
-          <div className="ml-10 mt-6  flex-none  lg:ml-[3%]">
+        <div className="mt-10 flex flex-col gap-y-10 md:flex-row md:gap-x-10">
+          <div className="flex-none self-center md:ml-[3%]">
             <img
               src="public/Myimg.png"
               alt="Photo"
-              className="  border-lightBlue-500 h-auto w-60 border-4 border-double bg-gray-500 object-cover pt-20 hover:bg-blue-900"
+              className="border-lightBlue-500 h-auto w-full max-w-xs border-4 border-double bg-gray-500 object-cover hover:bg-blue-900 md:w-60"
             />
           </div>
-          <div className="mt-6 max-w-3xl">
+          <div className="max-w-3xl px-4 sm:px-8 md:px-0">
             <h3 className="font-audiowide text-2xl font-semibold text-blue-300">
               About Me
             </h3>
-            <p className="mt-4 max-w-lg text-justify text-base text-gray-300">
+            <p className="mt-4 text-justify text-base text-gray-300 sm:text-lg">
               I’m a Full-Stack Developer with a degree in Computer Science and
               Technology, and I’ve gained practical experience in building
               applications using a modern tech stack. I’m passionate about
