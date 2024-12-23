@@ -4,6 +4,7 @@ import { faJs } from '@fortawesome/free-brands-svg-icons'
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
 import { faCss } from '@fortawesome/free-brands-svg-icons'
 import { faNode } from '@fortawesome/free-brands-svg-icons'
+import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 export default function Icon() {
   return (
@@ -25,7 +26,25 @@ export default function Icon() {
         <p className="mt-2 text-white">Express.Js</p>
       </div>
       <div className=" flex flex-col  items-center text-orange-500 lg:mt-[-1%] ">
-        <img src="public/csharp.png" alt="C#" className=" w-14" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 100 100"
+          className="h-16 w-16 text-gray-700"
+        >
+          <g fill="#8f069b">
+            <circle cx="40" cy="40" r="60" />
+            <text
+              x="50%"
+              y="50%"
+              fontSize="35"
+              textAnchor="middle"
+              dy=".3em"
+              fill="white"
+            >
+              C#
+            </text>
+          </g>
+        </svg>
         <p className="mt-2 text-white">C#</p>
       </div>
       <div className="flex flex-col items-center text-orange-500">
