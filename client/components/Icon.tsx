@@ -4,7 +4,6 @@ import { faJs } from '@fortawesome/free-brands-svg-icons'
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
 import { faCss } from '@fortawesome/free-brands-svg-icons'
 import { faNode } from '@fortawesome/free-brands-svg-icons'
-import { faExpress } from '@fortawesome/free-brands-svg-icons'
 
 export default function Icon() {
   return (
@@ -21,9 +20,13 @@ export default function Icon() {
         <FontAwesomeIcon icon={faNode} className="text-5xl" />
         <p className="mt-2 text-white">Node.Js</p>
       </div>
-      <div className="flex flex-col items-center text-green-400">
-        <FontAwesomeIcon icon={faExpress} className="text-5xl" />
+      <div className="mt-[-2%] flex flex-col items-center text-green-400">
+        <img src="public/express.png" alt="express.js" />
         <p className="mt-2 text-white">Express.Js</p>
+      </div>
+      <div className=" flex flex-col  items-center text-orange-500 lg:mt-[-1%] ">
+        <img src="public/csharp.png" alt="C#" className=" w-14" />
+        <p className="mt-2 text-white">C#</p>
       </div>
       <div className="flex flex-col items-center text-orange-500">
         <FontAwesomeIcon icon={faHtml5} className="text-5xl" />
