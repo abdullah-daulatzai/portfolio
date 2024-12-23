@@ -4,12 +4,11 @@ import { faJs } from '@fortawesome/free-brands-svg-icons'
 import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
 import { faCss } from '@fortawesome/free-brands-svg-icons'
 import { faNode } from '@fortawesome/free-brands-svg-icons'
-import { faCode } from '@fortawesome/free-solid-svg-icons'
 
 export default function Icon() {
   return (
     <>
-      <div className="flex w-full justify-between gap-4 px-[17%]">
+      <div className=" justify-even flex flex-wrap gap-8 px-[17%]">
         <div className="flex flex-col items-center text-blue-400">
           <FontAwesomeIcon icon={faReact} className="text-5xl" />
           <p className="mt-2 text-white">React</p>
@@ -18,25 +17,29 @@ export default function Icon() {
           <FontAwesomeIcon icon={faJs} className="text-5xl" />
           <p className="mt-2 text-white">JavaScript</p>
         </div>
+        <div className="flex w-12 flex-col items-center text-yellow-300">
+          <img src="public/typescript.svg" alt="TypeScript" />
+          <p className="mt-2 text-white">TypeScript</p>
+        </div>
         <div className="flex flex-col items-center text-green-400">
           <FontAwesomeIcon icon={faNode} className="text-5xl" />
           <p className="mt-2 text-white">Node.Js</p>
         </div>
         <div className="mt-[-2%] flex flex-col items-center text-green-400">
           <img src="public/express.png" alt="express.js" />
-          <p className="mt-2 text-white">Express.Js</p>
+          <p className="mt-2 text-white ">Express.Js</p>
         </div>
-        <div className=" flex flex-col  items-center text-orange-500 lg:mt-[-1%] ">
+        <div className=" flex flex-col  items-center text-orange-500  ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 100 100"
             className="h-16 w-16 text-gray-700"
           >
             <g fill="#8f069b">
-              <circle cx="40" cy="40" r="60" />
+              <circle cx="30" cy="30" r="40" />
               <text
-                x="50%"
-                y="50%"
+                x="40%"
+                y="40%"
                 fontSize="35"
                 textAnchor="middle"
                 dy=".3em"
@@ -46,15 +49,52 @@ export default function Icon() {
               </text>
             </g>
           </svg>
-          <p className="mt-2 text-white">C#</p>
+          <p className=" text-white sm:mt-[-11%]">C#</p>
         </div>
         <div className="flex flex-col items-center text-orange-500">
           <FontAwesomeIcon icon={faHtml5} className="text-5xl" />
           <p className="mt-2 text-white">HTML</p>
         </div>
+
         <div className="flex flex-col items-center text-sky-400">
           <FontAwesomeIcon icon={faCss} className="text-5xl" />
           <p className="mt-2 text-white">CSS</p>
+        </div>
+        <div className=" mt-2 flex flex-col items-center text-orange-500">
+          <img src="public/tailwind.png" alt=" Tailwind CSS" className="w-14" />
+          <p className="mt-3 text-white ">Tailwind CSS</p>
+        </div>
+        <div className="mt-[-2%] flex flex-col items-center text-green-400">
+          <img src="public/sqlite.svg" alt="SQLite" className="w-16" />
+          <p className="mt-2 text-white ">SQLite</p>
+        </div>
+        <div className=" flex flex-col items-center text-green-400">
+          <img src="public/knex.svg" alt="Knex" className="w-12" />
+          <p className="mt-2 text-white ">Knex</p>
+        </div>
+        <div className=" flex flex-col items-center text-green-400">
+          <img src="public/git.svg" alt="Git" className="w-12" />
+          <p className="mt-2 text-white ">Git</p>
+        </div>
+        <div className=" flex flex-col items-center text-green-400">
+          <img src="public/mongodb.svg" alt="MongoDB" className="w-12" />
+          <p className="mt-2 text-white ">MongoDB</p>
+        </div>
+        <div className=" flex flex-col items-center text-green-400">
+          <img
+            src="public/github.svg"
+            alt="GitHub"
+            className="w-12 text-gray-100 "
+          />
+          <p className="mt-2 text-white ">GitHub</p>
+        </div>
+        <div className=" flex flex-col items-center text-green-400">
+          <img
+            src="public/vitest.png"
+            alt="Vitest"
+            className="w-12 text-gray-100 "
+          />
+          <p className="mt-3 text-white ">Vitest</p>
         </div>
       </div>
     </>
