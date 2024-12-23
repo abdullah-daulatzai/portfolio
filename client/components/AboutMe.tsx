@@ -28,23 +28,26 @@ export default function AboutMe() {
               About Me
             </h3>
             <p className="lg:text-md sm:text-md mt-4 max-w-xl  text-justify text-base text-gray-300">
-              I’m a Full-Stack Developer with a degree in Computer Science and
-              Technology, and I’ve gained practical experience in building
-              applications using a modern tech stack. I’m passionate about
-              writing clean, efficient, and maintainable code, and I’m always
-              looking for ways to improve. I enjoy learning new technologies,
-              taking on challenges, and I’m always thirsty to learn more and
-              grow my skills. Driven by curiosity and a passion for growth, I’m
-              eager to contribute to innovative projects and build impactful
-              digital solutions. I really value working with others, as I
-              believe great ideas come from collaboration and open
-              communication. I’m excited to get involved in meaningful projects,
-              learn from others, and develop my career as a developer.
-              Technologies I’ve worked with include: HTML, CSS, Bootstrap,
-              Tailwind CSS, JavaScript, React.js, TypeScript, Express.js,
-              Node.js, C#, ASP.Net Core MVC, SQLite, MySQL, Git, Superagent.
-              Thanks for visiting my site!
+              Kia ora I’m a Full-Stack Developer based in Auckland with a degree
+              in Computer Science and Technology. My journey into software
+              development has been driven by a love for solving problems,
+              creating smart solutions, and constantly learning something new.
+              I’m always up for challenges that help me grow and improve. I
+              really value teamwork and open communication because I think the
+              best ideas come from sharing and working together. I’m excited to
+              work on projects that make a difference, learn from others, and
+              use technology to have a positive impact. When I’m not coding,
+              you’ll probably find me out on a long walk or at a social event,
+              chatting with like-minded people. Thanks for stopping by my site!
             </p>
+            <div className="mt-[10%]">
+              <a
+                className="   rounded-md bg-gradient-to-r from-blue-500 to-blue-800 pb-2 pl-5 pr-5 pt-2 text-white transition-all duration-300 hover:scale-105 hover:brightness-95"
+                href="https://drive.google.com/file/d/16LQcXlhu0A5csPnSUvJ5OPx4cKiOLgPR/view?usp=sharing"
+              >
+                My CV
+              </a>
+            </div>
           </div>
         </div>
       </div>
