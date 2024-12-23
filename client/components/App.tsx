@@ -14,7 +14,7 @@ function App() {
 
       <section className="mt-32 ">
         <div className=" mb-20 text-center text-white">
-          <p className="font-audiowide text-2xl">ToolKit</p>
+          <p className="font-audiowide text-3xl">ToolKit</p>
         </div>
         <Icon />
       </section>
