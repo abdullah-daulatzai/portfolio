@@ -1,5 +1,6 @@
 import Nav from './Nav'
 import AboutMe from './AboutMe'
+import Icon from './Icon'
 
 function App() {
   return (
@@ -9,6 +10,9 @@ function App() {
       </header>
       <section className=" mt-32 flex w-screen items-center justify-center">
         <AboutMe />
+      </section>
+      <section className="mt-32 ">
+        <Icon />
       </section>
 
       <main className="p-4"></main>
