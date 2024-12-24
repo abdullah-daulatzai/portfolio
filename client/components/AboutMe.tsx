@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <>
-      <div className="py-10">
+      <div className="py-10" id="about-me">
         <div className="font-audiowide sm:text-md flex flex-col items-center justify-center space-y-2 md:flex-row">
           <div className="text-shadow font-sans text-4xl font-bold tracking-wide sm:text-3xl md:text-4xl lg:text-3xl">
             <h1 className="font-audiowide inline text-white">Hello,</h1>
@@ -28,17 +28,18 @@ export default function AboutMe() {
               About Me
             </h3>
             <p className="lg:text-md sm:text-md mt-4 max-w-xl  text-justify text-base text-gray-300">
-              Kia ora I’m a Full-Stack Developer based in Auckland with a degree
-              in Computer Science and Technology. My journey into software
-              development has been driven by a love for solving problems,
-              creating smart solutions, and constantly learning something new.
-              I’m always up for challenges that help me grow and improve. I
-              really value teamwork and open communication because I think the
-              best ideas come from sharing and working together. I’m excited to
-              work on projects that make a difference, learn from others, and
-              use technology to have a positive impact. When I’m not coding,
-              you’ll probably find me out on a long walk or at a social event,
-              chatting with like-minded people. Thanks for stopping by my site!
+              Kia ora, I’m Abdullah a Full-Stack Developer based in Auckland
+              with a degree in Computer Science and Technology. My journey into
+              software development has been driven by a love for solving
+              problems, creating smart solutions, and constantly learning
+              something new. I’m always up for challenges that help me grow and
+              improve. I really value teamwork and open communication because I
+              think the best ideas come from sharing and working together. I’m
+              excited to work on projects that make a difference, learn from
+              others, and use technology to have a positive impact. When I’m not
+              coding, you’ll probably find me out on a long walk or at a social
+              event, chatting with like-minded people. Thanks for stopping by my
+              site!
             </p>
             <div className="mt-[10%] ">
               <a

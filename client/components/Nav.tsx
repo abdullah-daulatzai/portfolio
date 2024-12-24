@@ -28,13 +28,15 @@ export default function Nav() {
             <a href="">Home</a>
           </li>
           <li className="hover:text-blue-500">
-            <a href="">About Me</a>
+            <a href="#about-me">About Me</a>
           </li>
           <li className="hover:text-blue-500">
-            <a href="">Portfolio</a>
+            <a href="#my-projects">Portfolio</a>
           </li>
           <li className="hover:text-blue-500">
-            <a href="">My CV</a>
+            <a href="https://drive.google.com/file/d/16LQcXlhu0A5csPnSUvJ5OPx4cKiOLgPR/view?usp=sharing">
+              My CV
+            </a>
           </li>
         </ul>
 
