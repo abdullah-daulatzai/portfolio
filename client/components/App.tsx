@@ -1,6 +1,7 @@
 import Nav from './Nav'
 import AboutMe from './AboutMe'
 import Icon from './Icon'
+import Project from './Project'
 
 function App() {
   return (
@@ -13,10 +14,21 @@ function App() {
       </section>
 
       <section className="mt-32 ">
-        <div className=" mb-20 text-center text-white">
-          <p className="font-audiowide text-3xl">ToolKit</p>
+        <div className=" mb-20 text-center">
+          <p className="font-audiowide text-3xl text-blue-300 lg:text-4xl">
+            ToolKit
+          </p>
         </div>
         <Icon />
+      </section>
+
+      <section className="mt-32 ">
+        <div className=" mb-20 text-center">
+          <p className="font-audiowide text-3xl text-blue-300 lg:text-4xl">
+            Projects
+          </p>
+        </div>
+        <Project />
       </section>
 
       <main className="p-4"></main>
