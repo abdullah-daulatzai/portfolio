@@ -40,9 +40,9 @@ export default function AboutMe() {
               you’ll probably find me out on a long walk or at a social event,
               chatting with like-minded people. Thanks for stopping by my site!
             </p>
-            <div className="mt-[10%]">
+            <div className="mt-[10%] ">
               <a
-                className="   rounded-md bg-gradient-to-r from-blue-500 to-blue-800 pb-2 pl-5 pr-5 pt-2 text-white transition-all duration-300 hover:scale-105 hover:brightness-95"
+                className="  hover:brightness-15  rounded-md bg-gradient-to-r from-blue-500 to-blue-800 pb-2 pl-5 pr-5 pt-2 text-white transition-all duration-300 hover:scale-110 hover:text-yellow-500"
                 href="https://drive.google.com/file/d/16LQcXlhu0A5csPnSUvJ5OPx4cKiOLgPR/view?usp=sharing"
               >
                 My CV
