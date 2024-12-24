@@ -4,7 +4,7 @@ export default function AboutMe() {
       <div className="py-10" id="about-me">
         <div className="font-audiowide sm:text-md flex flex-col items-center justify-center space-y-2 md:flex-row">
           <div className="text-shadow font-sans text-4xl font-bold tracking-wide sm:text-3xl md:text-4xl lg:text-3xl">
-            <h1 className="font-audiowide inline text-white">Hello,</h1>
+            <h1 className="font-audiowide inline text-white">Kia ora,</h1>
             <h2 className="mt-4 font-bold text-white sm:mt-2">
               I'm <span className="text-blue-500">Abdullah!</span>
             </h2>
@@ -28,8 +28,8 @@ export default function AboutMe() {
               About Me
             </h3>
             <p className="lg:text-md sm:text-md mt-4 max-w-xl  text-justify text-base text-gray-300">
-              Kia ora, I’m Abdullah a Full-Stack Developer based in Auckland
-              with a degree in Computer Science and Technology. My journey into
+              I’m Abdullah a Full-Stack Developer based in Auckland with a
+              degree in Computer Science and Technology. My journey into
               software development has been driven by a love for solving
               problems, creating smart solutions, and constantly learning
               something new. I’m always up for challenges that help me grow and

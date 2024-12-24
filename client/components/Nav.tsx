@@ -24,16 +24,16 @@ export default function Nav() {
         `}
       >
         <ul className="flex space-x-6 text-white md:space-x-20">
-          <li className="hover:text-blue-500">
+          <li className="hover:scale-105 hover:text-blue-500">
             <a href="">Home</a>
           </li>
-          <li className="hover:text-blue-500">
+          <li className="hover:scale-105 hover:text-blue-500">
             <a href="#about-me">About Me</a>
           </li>
-          <li className="hover:text-blue-500">
+          <li className="hover:scale-105 hover:text-blue-500">
             <a href="#my-projects">Portfolio</a>
           </li>
-          <li className="hover:text-blue-500">
+          <li className="hover:scale-105 hover:text-blue-500">
             <a href="https://drive.google.com/file/d/16LQcXlhu0A5csPnSUvJ5OPx4cKiOLgPR/view?usp=sharing">
               My CV
             </a>
