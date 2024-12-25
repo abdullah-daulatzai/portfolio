@@ -36,6 +36,11 @@ function App() {
           <p className="font-audiowide text-3xl text-blue-300 lg:text-4xl">
             Contact Me
           </p>
+          <div className=" lg:mt-10">
+            <p className="text-md text-white">
+              Want to get in touch? Here are the ways you can reach out!
+            </p>
+          </div>
         </div>
         <Contact />
       </section>
