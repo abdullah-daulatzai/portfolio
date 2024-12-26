@@ -5,7 +5,7 @@ import Project from './Project'
 import Contact from './Contact'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 function App() {
   return (
     <div className="app">
@@ -55,6 +55,9 @@ function App() {
                   className="w-11 text-gray-100  hover:scale-125"
                 />
               </a>
+            </div>
+            <div className="  items-center text-blue-400 ">
+              <FontAwesomeIcon icon={faLinkedin} className="text-4xl" />
             </div>
           </div>
         </div>
