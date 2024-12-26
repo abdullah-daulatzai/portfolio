@@ -3,6 +3,8 @@ import AboutMe from './AboutMe'
 import Icon from './Icon'
 import Project from './Project'
 import Contact from './Contact'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 function App() {
   return (
@@ -37,9 +39,23 @@ function App() {
             Contact Me
           </p>
           <div className=" lg:mt-10">
-            <p className="text-md text-white">
+            <p className="text-md sm:text:sm text-white sm:mt-10">
               Want to get in touch? Here are the ways you can reach out!
             </p>
+          </div>
+          <div className="flex flex-row justify-center">
+            <div className="  items-center text-blue-400 ">
+              <FontAwesomeIcon icon={faEnvelope} className="text-4xl" />
+            </div>
+            <div className="  items-center text-green-400">
+              <a href="https://github.com/abdullah-daulatzai">
+                <img
+                  src="public/github.svg"
+                  alt="GitHub"
+                  className="w-11 text-gray-100  hover:scale-125"
+                />
+              </a>
+            </div>
           </div>
         </div>
         <Contact />
