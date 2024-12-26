@@ -43,22 +43,28 @@ function App() {
               Want to get in touch? Here are the ways you can reach out!
             </p>
           </div>
-          <div className="flex flex-row justify-center">
-            <div className="  items-center text-blue-400 ">
-              <FontAwesomeIcon icon={faEnvelope} className="text-4xl" />
+          <div className="mt-8 flex flex-row justify-center gap-12">
+            <div className="  items-center text-blue-500 ">
+              <FontAwesomeIcon
+                icon={faEnvelope}
+                className="text-5xl hover:scale-105"
+              />
             </div>
-            <div className="  items-center text-green-400">
+            <div className="   items-center  text-blue-500 ">
               <a href="https://github.com/abdullah-daulatzai">
                 <img
                   src="public/github.svg"
                   alt="GitHub"
-                  className="w-11 text-gray-100  hover:scale-125"
+                  className="w-14  hover:scale-105"
                 />
               </a>
             </div>
             <a href="https://www.linkedin.com/in/abdullah-d-93032b124/">
-              <div className="  items-center text-blue-400 ">
-                <FontAwesomeIcon icon={faLinkedin} className="text-4xl" />
+              <div className="  items-center text-blue-500 ">
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="text-5xl hover:scale-105"
+                />
               </div>
             </a>
           </div>
