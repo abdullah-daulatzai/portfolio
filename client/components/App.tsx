@@ -56,9 +56,11 @@ function App() {
                 />
               </a>
             </div>
-            <div className="  items-center text-blue-400 ">
-              <FontAwesomeIcon icon={faLinkedin} className="text-4xl" />
-            </div>
+            <a href="https://www.linkedin.com/in/abdullah-d-93032b124/">
+              <div className="  items-center text-blue-400 ">
+                <FontAwesomeIcon icon={faLinkedin} className="text-4xl" />
+              </div>
+            </a>
           </div>
         </div>
         <Contact />
