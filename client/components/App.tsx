@@ -33,34 +33,34 @@ function App() {
         </div>
         <Project />
       </section>
-      <section className="mt-32 ">
-        <div className=" mb-20 text-center">
+      <section className="mt-32 px-4">
+        <div className="text-center">
           <p className="font-audiowide text-3xl text-blue-300 lg:text-4xl">
             Contact Me
           </p>
-          <div className=" lg:mt-10">
+          <div className="lg:mt-10">
             <p className="text-md sm:text:sm text-white sm:mt-10">
               Want to get in touch? Here are the ways you can reach out!
             </p>
           </div>
           <div className="mt-8 flex flex-row justify-center gap-12">
-            <div className="  items-center text-blue-500 ">
+            <div className="items-center text-blue-500">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 className="text-5xl hover:scale-105"
               />
             </div>
-            <div className="   items-center  text-blue-500 ">
+            <div className="items-center text-blue-500">
               <a href="https://github.com/abdullah-daulatzai">
                 <img
                   src="public/github.svg"
                   alt="GitHub"
-                  className="w-14  hover:scale-105"
+                  className="w-14 hover:scale-105"
                 />
               </a>
             </div>
             <a href="https://www.linkedin.com/in/abdullah-d-93032b124/">
-              <div className="  items-center text-blue-500 ">
+              <div className="items-center text-blue-500">
                 <FontAwesomeIcon
                   icon={faLinkedin}
                   className="text-5xl hover:scale-105"
@@ -69,8 +69,12 @@ function App() {
             </a>
           </div>
         </div>
-        <Contact />
+
+        <div className=" mt-[-5%] w-full">
+          <Contact />
+        </div>
       </section>
+
       <main className="p-4"></main>
     </div>
   )

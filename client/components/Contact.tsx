@@ -1,9 +1,9 @@
 export default function Contact() {
   return (
     <>
-      <div className="ml-[25%] flex  min-h-screen  ">
-        <form className=" rounded-lg  p-6 shadow-lg">
-          <div className="mb-4 ">
+      <div className="flex min-h-screen items-center justify-center px-4">
+        <form className="w-full max-w-3xl rounded-lg p-6 shadow-lg">
+          <div className="mb-4">
             <label
               htmlFor="name"
               className="block text-sm font-medium text-gray-200"
@@ -13,7 +13,7 @@ export default function Contact() {
             <input
               type="text"
               id="name"
-              className="mt-2  block w-[380%] rounded-lg border border-gray-600 bg-gray-700 p-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="mt-2 block w-full rounded-lg border border-gray-600 bg-gray-700 p-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Enter your name"
             />
           </div>
@@ -27,7 +27,7 @@ export default function Contact() {
             <input
               type="email"
               id="email"
-              className="mt-2 block w-[380%] rounded-lg border border-gray-600 bg-gray-700 p-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="mt-2 block w-full rounded-lg border border-gray-600 bg-gray-700 p-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Enter your email"
             />
           </div>
@@ -41,16 +41,18 @@ export default function Contact() {
             <textarea
               id="message"
               rows="4"
-              className="mt-2 block w-[380%] rounded-lg border border-gray-600 bg-gray-700 p-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="mt-2 block w-full rounded-lg border border-gray-600 bg-gray-700 p-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Write your message"
             ></textarea>
           </div>
-          <button
-            type="submit"
-            className="w-full items-center justify-center rounded-lg bg-blue-600 py-3 font-semibold text-white transition duration-300 hover:bg-blue-700"
-          >
-            Submit
-          </button>
+          <div className="flex justify-center">
+            <button
+              type="submit"
+              className="w-full max-w-[200px] rounded-lg bg-blue-600 py-3 text-xl font-semibold text-white transition duration-300 hover:bg-blue-700"
+            >
+              Submit
+            </button>
+          </div>
         </form>
       </div>
     </>
