@@ -2,9 +2,9 @@ export default function AboutMe() {
   return (
     <>
       <div className="py-10" id="about-me">
-        <div className="font-audiowide sm:text-md flex flex-col items-center justify-center space-y-2 md:flex-row">
+        <div className="sm:text-md flex flex-col items-center justify-center space-y-2 font-audiowide md:flex-row">
           <div className="text-shadow font-sans text-4xl font-bold tracking-wide sm:text-3xl md:text-4xl lg:text-3xl">
-            <h1 className="font-audiowide inline text-white">Kia ora,</h1>
+            <h1 className="inline font-audiowide text-white">Kia ora,</h1>
             <h2 className="mt-4 font-bold text-white sm:mt-2">
               I'm <span className="text-blue-500">Abdullah!</span>
             </h2>
