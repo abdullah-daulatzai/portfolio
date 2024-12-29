@@ -8,7 +8,7 @@ import { faNode } from '@fortawesome/free-brands-svg-icons'
 export default function Icon() {
   return (
     <>
-      <div className=" justify-even flex flex-wrap gap-8 px-[17%]">
+      <div className="mx-auto flex max-w-screen-lg flex-wrap justify-evenly gap-8 px-4 sm:px-6 lg:px-16">
         <div className=" flex flex-col items-center text-blue-400 ">
           <FontAwesomeIcon
             icon={faReact}
