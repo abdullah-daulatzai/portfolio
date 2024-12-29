@@ -20,7 +20,7 @@ export default function Nav() {
     <>
       <div
         className={`fixed left-0 top-0 z-50 flex w-full items-center justify-center p-4 transition-all duration-300 md:p-10 
-          ${isScrolled ? 'bg-white-200  shadow-lg backdrop-blur-lg' : 'bg-transparent shadow-none backdrop-blur-none'}
+          ${isScrolled ? 'bg-white-200  shadow-xs backdrop-blur-sm' : 'bg-transparent shadow-none backdrop-blur-none'}
         `}
       >
         <ul className="flex space-x-6 text-white md:space-x-20">
