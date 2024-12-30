@@ -3,14 +3,16 @@ export default function AboutMe() {
     <>
       <div className="py-10" id="about-me">
         <div className="sm:text-md flex flex-col items-center justify-center space-y-2 font-audiowide md:flex-row">
-          <div className="text-shadow font-sans text-4xl font-bold tracking-wide sm:text-3xl md:text-4xl lg:text-3xl">
-            <h1 className="inline font-audiowide text-white">Kia ora,</h1>
-            <h2 className="mt-4 font-bold text-white sm:mt-2">
-              I'm <span className="text-blue-500">Abdullah!</span>
+          <div className="text-shadow font-sans  font-bold tracking-wide sm:text-3xl md:text-4xl lg:text-3xl">
+            <h1 className="inline font-audiowide text-4xl text-white">
+              Kia ora,
+            </h1>
+            <h2 className="mt-4 text-4xl font-bold text-white sm:mt-2">
+              I'm <span className="text-blue-500 ">Abdullah!</span>
             </h2>
           </div>
           <div className="mt-2 sm:mt-2 md:mt-4  lg:mt-4">
-            <h2 className="font-montserrat text-xl tracking-wider text-white sm:text-3xl md:text-4xl lg:ml-16 lg:text-2xl">
+            <h2 className="font-montserrat text-2xl tracking-wider text-white sm:text-3xl md:text-4xl lg:ml-16 lg:text-2xl">
               FULL STACK DEVELOPER
             </h2>
           </div>
@@ -23,11 +25,11 @@ export default function AboutMe() {
               className=" h-auto w-full max-w-xs border-4 border-double border-green-700 bg-gray-400 object-cover hover:bg-blue-900 md:w-60 lg:pt-20"
             />
           </div>
-          <div className="max-w-3xl px-4 sm:px-8 md:px-0 lg:mt-32">
-            <h3 className="font-audiowide text-2xl font-semibold text-blue-300">
+          <div className=" max-w-md px-8 sm:px-2 md:px-0 lg:mt-32">
+            <h3 className="font-audiowide text-3xl font-semibold text-blue-300">
               About Me
             </h3>
-            <p className="lg:text-md sm:text-md mt-4 max-w-xl  text-justify text-base text-gray-300">
+            <p className="lg:text-md sm:text-md mt-4 max-w-xl  text-justify  text-gray-300">
               I’m Abdullah a Full-Stack Developer based in Auckland with a
               degree in Computer Science and Technology. My journey into
               software development has been driven by a love for solving
