@@ -117,7 +117,7 @@ export default function Contact() {
           <div
             className={`mt-6 rounded-md p-4 text-center ${
               messageType === 'success'
-                ? 'bg-blue-500 bg-opacity-30 text-white'
+                ? 'bg-green-700 bg-opacity-30 text-white'
                 : 'bg-red-500 text-white'
             }`}
           >

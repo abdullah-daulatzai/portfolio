@@ -31,7 +31,7 @@ export default function Nav() {
             <a href="#about-me">About Me</a>
           </li>
           <li className="hover:scale-105 hover:text-blue-500">
-            <a href="#my-projects">Portfolio</a>
+            <a href="#my_projects">Portfolio</a>
           </li>
           <li className="hover:scale-105 hover:text-blue-500">
             <a href="https://drive.google.com/file/d/16LQcXlhu0A5csPnSUvJ5OPx4cKiOLgPR/view?usp=sharing">
