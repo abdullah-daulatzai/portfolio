@@ -1,20 +1,18 @@
 export default function Project() {
   return (
     <>
-      <div className="justify-even flex flex-wrap justify-center gap-12 p-12">
-        <div className="flex w-full flex-col rounded-md border border-gray-800 bg-[#141414]  pl-3 pr-3 pt-16 hover:scale-105 hover:bg-purple-900 sm:w-full md:w-1/3 lg:w-[24%]">
+      <div className="justify-even flex  h-full flex-wrap justify-center gap-12 p-12">
+        <div className="flex  flex-col rounded-md border border-gray-800 bg-[#141414] pl-3 pr-3  pt-16 hover:scale-105 hover:bg-purple-900  sm:w-full md:w-1/3 lg:h-[490px] lg:w-[30%]">
           <img
             src="public/weekwise.png"
             alt="WeekWise"
-            className="h-43 rounded-md   lg:w-[100%]"
+            className="h-38 w-full  rounded-md"
           />
           <h3 className="mt-4 text-xl font-semibold text-white">
             Project Title 1
           </h3>
           <p className="mt-2 text-gray-400">
             This is a description of the project. You can include details about
-            what the project is about, technologies used, and any other relevant
-            information.
           </p>
         </div>
 
