@@ -1,9 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 import { faJs } from '@fortawesome/free-brands-svg-icons'
-import { faHtml5 } from '@fortawesome/free-brands-svg-icons'
-import { faCss } from '@fortawesome/free-brands-svg-icons'
-import { faNode } from '@fortawesome/free-brands-svg-icons'
+import { faChartLine } from '@fortawesome/free-solid-svg-icons'
 
 export default function Project() {
   return (
@@ -60,6 +58,12 @@ export default function Project() {
                 src="public/knex.svg"
                 alt="Knex"
                 className="w-8 hover:scale-105"
+              />
+            </div>
+            <div className=" flex flex-col items-center text-blue-400 ">
+              <FontAwesomeIcon
+                icon={faChartLine}
+                className="text-3xl hover:scale-105"
               />
             </div>
           </div>
