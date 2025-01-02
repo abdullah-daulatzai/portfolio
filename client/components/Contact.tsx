@@ -13,6 +13,7 @@ export default function Contact() {
             <input
               type="text"
               id="name"
+              required
               className="mt-2 block w-full rounded-lg border border-gray-600 bg-gray-800 p-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Enter your name"
             />
@@ -27,6 +28,7 @@ export default function Contact() {
             <input
               type="email"
               id="email"
+              required
               className="mt-2 block w-full rounded-lg border border-gray-600 bg-gray-800 p-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Enter your email"
             />
@@ -41,6 +43,7 @@ export default function Contact() {
             <textarea
               id="message"
               rows="4"
+              required
               className="mt-2 block w-full rounded-lg border border-gray-600 bg-gray-800 p-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="Write your message"
             ></textarea>
