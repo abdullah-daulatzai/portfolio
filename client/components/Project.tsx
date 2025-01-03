@@ -69,7 +69,7 @@ export default function Project() {
           </div>
         </div>
 
-        <div className="flex w-full flex-col rounded-md border border-gray-800 bg-[#141414] p-6 hover:scale-105 hover:bg-purple-900 sm:w-full md:w-1/3 lg:w-1/4">
+        {/* <div className="flex w-full flex-col rounded-md border border-gray-800 bg-[#141414] p-6 hover:scale-105 hover:bg-purple-900 sm:w-full md:w-1/3 lg:w-1/4">
           <img
             src="https://via.placeholder.com/300"
             alt="Project Image"
@@ -99,7 +99,7 @@ export default function Project() {
             what the project is about, technologies used, and any other relevant
             information.
           </p>
-        </div>
+        </div> */}
       </div>
     </>
   )

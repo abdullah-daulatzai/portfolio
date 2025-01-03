@@ -22,7 +22,7 @@ export default function Icon() {
         </div>
         <div className="flex w-12 flex-col items-center text-yellow-300">
           <img
-            src="public/typescript.svg"
+            src="/portfolio/typescript.svg"
             alt="TypeScript"
             className="hover:scale-125"
           />
@@ -34,7 +34,7 @@ export default function Icon() {
         </div>
         <div className="mt-[-2%] flex flex-col items-center text-green-400">
           <img
-            src="public/express.png"
+            src="/portfolio/express.png"
             alt="express.js"
             className="hover:scale-125"
           />
