@@ -92,7 +92,7 @@ export default function Icon() {
         </div>
         <div className=" flex flex-col items-center text-green-400">
           <img
-            src="public/knex.svg"
+            src="/portfolio/public/knex.svg"
             alt="Knex"
             className="w-12 hover:scale-125"
           />
