@@ -12,7 +12,7 @@ export default function Project() {
       >
         <div className="flex  flex-col rounded-md border border-gray-800 bg-[#141414] pl-3 pr-3  pt-16 hover:scale-105 hover:bg-purple-900  sm:w-full md:w-1/3 lg:h-[490px] lg:w-[30%]">
           <img
-            src="public/weekwise.png"
+            src="/portfolio/weekwise.png"
             alt="WeekWise"
             className="h-38 w-full  rounded-md"
           />
@@ -28,7 +28,7 @@ export default function Project() {
             </div>
             <div className="flex w-8 flex-col items-center text-yellow-300">
               <img
-                src="public/typescript.svg"
+                src="/portfolio/typescript.svg"
                 alt="TypeScript"
                 className="hover:scale-105"
               />
@@ -41,21 +41,21 @@ export default function Project() {
             </div>
             <div className="mt-[-2%] flex  w-10 flex-col items-center text-green-400">
               <img
-                src="public/express.png"
+                src="/portfolio/express.png"
                 alt="express.js"
                 className="hover:scale-105"
               />
             </div>
             <div className="mt-[-3%] flex flex-col items-center text-green-400">
               <img
-                src="public/sqlite.svg"
+                src="/portfolio/sqlite.svg"
                 alt="SQLite"
                 className="w-12 hover:scale-105"
               />
             </div>
             <div className=" flex flex-col items-center text-green-400">
               <img
-                src="public/knex.svg"
+                src="/portfolio/knex.svg"
                 alt="Knex"
                 className="w-8 hover:scale-105"
               />

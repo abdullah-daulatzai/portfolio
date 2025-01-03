@@ -47,7 +47,10 @@ export default function Contact() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center px-4">
+    <div
+      id="contact"
+      className="flex min-h-screen items-center justify-center px-4"
+    >
       <form
         className="w-full max-w-2xl rounded-lg p-6"
         ref={form}

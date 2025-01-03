@@ -76,7 +76,7 @@ export default function Icon() {
         </div>
         <div className=" mt-2 flex flex-col items-center text-orange-500">
           <img
-            src="public/tailwind.png"
+            src="/portfolio/tailwind.png"
             alt=" Tailwind CSS"
             className="w-14 hover:scale-125"
           />
@@ -84,7 +84,7 @@ export default function Icon() {
         </div>
         <div className="mt-[-2%] flex flex-col items-center text-green-400">
           <img
-            src="public/sqlite.svg"
+            src="/portfolio/sqlite.svg"
             alt="SQLite"
             className="w-16 hover:scale-125"
           />
@@ -92,7 +92,7 @@ export default function Icon() {
         </div>
         <div className=" flex flex-col items-center text-green-400">
           <img
-            src="/portfolio/public/knex.svg"
+            src="/portfolio/knex.svg"
             alt="Knex"
             className="w-12 hover:scale-125"
           />
@@ -100,7 +100,7 @@ export default function Icon() {
         </div>
         <div className=" flex flex-col items-center text-green-400">
           <img
-            src="public/git.svg"
+            src="/portfolio/git.svg"
             alt="Git"
             className="w-12 hover:scale-125"
           />
@@ -108,7 +108,7 @@ export default function Icon() {
         </div>
         <div className=" flex flex-col items-center text-green-400">
           <img
-            src="public/mongodb.svg"
+            src="/portfolio/mongodb.svg"
             alt="MongoDB"
             className="w-12 hover:scale-125 hover:scale-125"
           />
@@ -116,7 +116,7 @@ export default function Icon() {
         </div>
         <div className=" flex flex-col items-center text-green-400">
           <img
-            src="public/github.svg"
+            src="/portfolio/github.svg"
             alt="GitHub"
             className="w-12 text-gray-100  hover:scale-125"
           />
@@ -124,7 +124,7 @@ export default function Icon() {
         </div>
         <div className=" flex flex-col items-center text-green-400">
           <img
-            src="public/vitest.png"
+            src="/portfolio/vitest.png"
             alt="Vitest"
             className="w-12 text-gray-100  hover:scale-125"
           />
@@ -132,7 +132,7 @@ export default function Icon() {
         </div>
         <div className=" flex flex-col items-center text-green-400">
           <img
-            src="public/mysql.svg"
+            src="/portfolio/mysql.svg"
             alt="MySQL"
             className="w-14 text-gray-100 hover:scale-125"
           />
@@ -140,7 +140,7 @@ export default function Icon() {
         </div>
         <div className=" flex flex-col items-center text-green-400">
           <img
-            src="public/postman.svg"
+            src="/portfolio/postman.svg"
             alt="Postman"
             className="w-14 text-gray-100 hover:scale-125 "
           />
@@ -148,7 +148,7 @@ export default function Icon() {
         </div>
         <div className=" flex flex-col items-center text-green-400">
           <img
-            src="public/auth0.png"
+            src="/portfolio/auth0.png"
             alt="Auth0"
             className="w-14 text-gray-100 hover:scale-125 "
           />
