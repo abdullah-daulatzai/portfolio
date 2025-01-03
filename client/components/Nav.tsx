@@ -42,7 +42,7 @@ export default function Nav() {
 
         <a
           className="ml-12 rounded-md bg-gradient-to-r from-blue-500 to-blue-800 pb-2 pl-3 pr-3 pt-2 text-white transition-all duration-300 hover:scale-105 hover:brightness-95"
-          href="/#contact"
+          href="#contact"
         >
           Contact
         </a>
