@@ -1,9 +1,10 @@
 {
-  "name": "boilerplate-fullstack-auth",
+  "name": "portfolio",
   "type": "module",
   "version": "2.0.0",
   "main": "server/index.js",
   "license": "MIT",
+  "homepage": "https://abdullah-daulatzai.github.io/portfolio",
   "keywords": [
     "fullstack"
   ],
@@ -14,7 +15,9 @@
     "build": "vite build",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "knex": "knex --knexfile ./server/db/knexfile.js",
-    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'"
+    "format": "prettier -w '**/*.{js,jsx,ts,tsx}'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": "@devacademy/eslint-config/react",
