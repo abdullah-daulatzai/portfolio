@@ -51,10 +51,8 @@ export default function Nav() {
           </button>
         </div>
 
-        {/* Navbar Links */}
-        <ul
-          className={`flex space-x-6 text-white md:space-x-20 ${isMenuOpen ? 'block' : 'hidden'} md:block`}
-        >
+        {/* Navbar Links for Large Screens */}
+        <ul className={`hidden space-x-6 text-white md:flex md:space-x-20`}>
           <li className="hover:scale-105 hover:text-blue-500">
             <a href="">Home</a>
           </li>
@@ -80,8 +78,18 @@ export default function Nav() {
       </div>
 
       {/* Mobile Menu (hidden on larger screens) */}
-      <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-        <ul className="flex flex-col items-center space-y-4 bg-white py-4 text-black">
+      <div
+        className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}
+        style={{
+          position: 'absolute',
+          top: '4rem', // Adjust to your header's height
+          left: '0',
+          width: '100%',
+          backgroundColor: 'white',
+          zIndex: 50,
+        }}
+      >
+        <ul className="flex flex-col items-center space-y-4 py-4 text-black">
           <li className="hover:scale-105 hover:text-blue-500">
             <a href="">Home</a>
           </li>
