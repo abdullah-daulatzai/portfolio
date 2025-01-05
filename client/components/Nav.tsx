@@ -77,7 +77,6 @@ export default function Nav() {
         </a>
       </div>
 
-      {/* Mobile Menu (hidden on larger screens) */}
       <div
         className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}
         style={{
