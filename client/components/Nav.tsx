@@ -64,14 +64,15 @@ export default function Nav() {
               My CV
             </a>
           </li>
+          <li>
+            <a
+              className="ml-12 rounded-md bg-gradient-to-r from-blue-500 to-blue-800 pb-2 pl-3 pr-3 pt-2 text-white transition-all duration-300 hover:scale-105 hover:brightness-95"
+              href="#contact"
+            >
+              Contact
+            </a>
+          </li>
         </ul>
-
-        <a
-          className="ml-12 rounded-md bg-gradient-to-r from-blue-500 to-blue-800 pb-2 pl-3 pr-3 pt-2 text-white transition-all duration-300 hover:scale-105 hover:brightness-95"
-          href="#contact"
-        >
-          Contact
-        </a>
       </div>
 
       {/* Mobile Menu with Transparent Blue Background and Backdrop Effects */}
@@ -79,13 +80,13 @@ export default function Nav() {
         className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}
         style={{
           position: 'absolute',
-          top: '4rem', // Adjust to your header's height
+          top: '4rem',
           left: '0',
-          width: 'auto', // Adjust to fit only the menu
+          width: 'auto',
         }}
       >
         <ul
-          className="bg-darkBlue/80 backdrop-brightness-70 flex flex-col items-start space-y-4 rounded-md 
+          className="backdrop-brightness-70 flex flex-col items-start space-y-4 rounded-md  
             py-4 pl-4 text-white backdrop-blur-sm"
         >
           <li className="hover:scale-105 hover:text-blue-500">
