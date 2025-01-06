@@ -86,7 +86,7 @@ export default function Nav() {
           zIndex: 50,
         }}
       >
-        <ul className="flex flex-col items-center space-y-4 py-4 text-white">
+        <ul className="flex flex-col items-start space-y-4 py-4 pl-4 text-white">
           <li className="hover:scale-105 hover:text-blue-500">
             <a href="">Home</a>
           </li>
