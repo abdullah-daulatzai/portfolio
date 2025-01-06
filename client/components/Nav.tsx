@@ -74,19 +74,20 @@ export default function Nav() {
         </a>
       </div>
 
-      {/* Mobile Menu with Transparent Black Background */}
+      {/* Mobile Menu with Transparent Blue Background and Backdrop Effects */}
       <div
         className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}
         style={{
           position: 'absolute',
           top: '4rem', // Adjust to your header's height
           left: '0',
-          width: '100%',
-          backgroundColor: 'rgba(0, 0, 0, 0.6)', // Transparent black background
-          zIndex: 50,
+          width: 'auto', // Adjust to fit only the menu
         }}
       >
-        <ul className="flex flex-col items-start space-y-4 py-4 pl-4 text-white">
+        <ul
+          className="bg-darkBlue/80 backdrop-brightness-70 flex flex-col items-start space-y-4 rounded-md 
+            py-4 pl-4 text-white backdrop-blur-sm"
+        >
           <li className="hover:scale-105 hover:text-blue-500">
             <a href="">Home</a>
           </li>
