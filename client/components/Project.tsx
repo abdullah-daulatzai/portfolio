@@ -119,12 +119,6 @@ export default function Project() {
                 className="w-8 hover:scale-105"
               />
             </div>
-            <div className=" flex flex-col items-center text-blue-400 ">
-              <FontAwesomeIcon
-                icon={faChartLine}
-                className="text-3xl hover:scale-105"
-              />
-            </div>
           </div>
         </div>
 
