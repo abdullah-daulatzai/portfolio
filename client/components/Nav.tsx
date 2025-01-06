@@ -27,10 +27,7 @@ export default function Nav() {
           : 'bg-transparent shadow-none backdrop-blur-none'
       }`}
     >
-      <div className="flex items-center justify-between">
-        {/* Logo or Brand */}
-        <div className="font-bold text-white">Logo</div>
-
+      <div className="flex items-center justify-between md:justify-center">
         {/* Hamburger Menu for Mobile */}
         <div className="md:hidden" onClick={toggleMenu}>
           <button className="text-white focus:outline-none">
@@ -77,6 +74,7 @@ export default function Nav() {
         </a>
       </div>
 
+      {/* Mobile Menu with Transparent Black Background */}
       <div
         className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}
         style={{
@@ -84,11 +82,11 @@ export default function Nav() {
           top: '4rem', // Adjust to your header's height
           left: '0',
           width: '100%',
-          backgroundColor: 'white',
+          backgroundColor: 'rgba(0, 0, 0, 0.6)', // Transparent black background
           zIndex: 50,
         }}
       >
-        <ul className="flex flex-col items-center space-y-4 py-4 text-black">
+        <ul className="flex flex-col items-center space-y-4 py-4 text-white">
           <li className="hover:scale-105 hover:text-blue-500">
             <a href="">Home</a>
           </li>
@@ -102,6 +100,9 @@ export default function Nav() {
             <a href="https://drive.google.com/file/d/16LQcXlhu0A5csPnSUvJ5OPx4cKiOLgPR/view?usp=sharing">
               My CV
             </a>
+          </li>
+          <li className="hover:scale-105 hover:text-blue-500">
+            <a href="#contact">Contact</a>
           </li>
         </ul>
       </div>
