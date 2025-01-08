@@ -78,9 +78,7 @@ export default function Project() {
                 href="/some-link"
                 className="mt-[-50px] text-3xl text-gray-300 hover:text-blue-900"
               >
-                <Link to="/stalgic">
-                  <FontAwesomeIcon icon={faExternalLink} />
-                </Link>
+                <FontAwesomeIcon icon={faExternalLink} />
               </a>
             </div>
             <img

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Nav() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -50,9 +51,9 @@ export default function Nav() {
 
         {/* Navbar Links for Large Screens */}
         <ul className={`hidden space-x-6 text-white md:flex md:space-x-20`}>
-          <li className="hover:scale-105 hover:text-blue-500">
-            <a href="">Home</a>
-          </li>
+          <Link to="/">
+            <li className="hover:scale-105 hover:text-blue-500">Home</li>
+          </Link>
           <li className="hover:scale-105 hover:text-blue-500">
             <a href="#about-me">About Me</a>
           </li>
