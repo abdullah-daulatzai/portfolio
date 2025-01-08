@@ -87,7 +87,7 @@ export default function Nav() {
       >
         <ul
           className="backdrop-brightness-70 flex flex-col items-start space-y-4 rounded-md 
-    bg-blue-800 bg-opacity-15 py-6 pl-4 pr-8 text-sm text-white backdrop-blur-sm"
+    bg-blue-800 bg-opacity-30 py-6 pl-4 pr-8 text-sm font-medium text-white backdrop-blur-sm"
         >
           <li className="hover:scale-105 hover:text-blue-500">
             <a href="">Home</a>
