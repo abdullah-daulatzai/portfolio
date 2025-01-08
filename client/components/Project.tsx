@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 import { faJs } from '@fortawesome/free-brands-svg-icons'
 import { faChartLine } from '@fortawesome/free-solid-svg-icons'
+import { faExternalLink } from '@fortawesome/free-solid-svg-icons'
 
 export default function Project() {
   return (
@@ -70,6 +71,14 @@ export default function Project() {
         </div>
 
         <div className="flex  flex-col rounded-md border border-gray-800 bg-[#141414] pl-3 pr-3  pt-16 hover:scale-105 hover:bg-purple-900  sm:w-full md:w-1/3 lg:h-[490px] lg:w-[30%]">
+          <div className=" flex justify-end">
+            <a
+              href="/some-link"
+              className="mt-[-50px] text-3xl text-gray-300 hover:text-blue-500"
+            >
+              <FontAwesomeIcon icon={faExternalLink} />
+            </a>
+          </div>
           <img
             src="public/Stalgic.png"
             alt="WeekWise"
