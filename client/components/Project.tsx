@@ -3,6 +3,7 @@ import { faReact } from '@fortawesome/free-brands-svg-icons'
 import { faJs } from '@fortawesome/free-brands-svg-icons'
 import { faChartLine } from '@fortawesome/free-solid-svg-icons'
 import { faExternalLink } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 export default function Project() {
   return (
@@ -74,9 +75,11 @@ export default function Project() {
           <div className=" flex justify-end">
             <a
               href="/some-link"
-              className="mt-[-50px] text-3xl text-gray-300 hover:text-blue-500"
+              className="mt-[-50px] text-3xl text-gray-300 hover:text-blue-900"
             >
-              <FontAwesomeIcon icon={faExternalLink} />
+              <Link to="/stalgic">
+                <FontAwesomeIcon icon={faExternalLink} />
+              </Link>
             </a>
           </div>
           <img
