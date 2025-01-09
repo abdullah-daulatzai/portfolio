@@ -17,7 +17,7 @@ export default function Stalgic() {
           <h1 className="text-3xl font-bold text-white ">
             Project Description:
           </h1>
-          <p className="lg:text-md mt-12 pb-4 text-justify text-gray-200 sm:max-w-xl sm:text-xl lg:max-w-3xl ">
+          <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:text-lg lg:max-w-3xl ">
             Stalgic is a digital memory capsule, inspired by the age-old
             tradition of burying a box of personal mementos to preserve memories
             for future generations. The idea behind Stalgic is to offer a
