@@ -13,7 +13,7 @@ export default function Stalgic() {
             Stalgic
           </h1>
         </div>
-        <div className="mt-40 flex flex-col  sm:ml-[0px] sm:pl-[25px]  lg:ml-[270px]">
+        <div className="mt-40 flex flex-col  sm:ml-[0px] sm:pl-[25px]  lg:ml-[260px]">
           <h1 className="text-3xl font-bold text-white ">
             Project Description:
           </h1>
