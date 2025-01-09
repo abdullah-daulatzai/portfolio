@@ -13,11 +13,11 @@ export default function Stalgic() {
             Stalgic
           </h1>
         </div>
-        <div className="mt-40 flex flex-col  sm:ml-[0px] sm:pl-[25px]  lg:ml-[400px]">
-          <h1 className="text-4xl font-bold text-white ">
+        <div className="mt-40 flex flex-col  sm:ml-[0px] sm:pl-[25px]  lg:ml-[270px]">
+          <h1 className="text-3xl font-bold text-white ">
             Project Description:
           </h1>
-          <p className="mt-12 pb-4 text-justify text-gray-200 sm:max-w-xl sm:text-xl lg:max-w-4xl lg:text-2xl ">
+          <p className="lg:text-md mt-12 pb-4 text-justify text-gray-200 sm:max-w-xl sm:text-xl lg:max-w-3xl ">
             Stalgic is a digital memory capsule, inspired by the age-old
             tradition of burying a box of personal mementos to preserve memories
             for future generations. The idea behind Stalgic is to offer a
