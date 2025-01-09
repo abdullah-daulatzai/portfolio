@@ -7,16 +7,29 @@ export default function Stalgic() {
         <Nav />
       </header>
 
-      <div className="mt-44 flex min-h-screen flex-col ">
+      <div className="mt-44 flex min-h-screen flex-col  ">
         <div className=" flex flex-col items-center">
-          <h1 className="font-audiowide text-6xl font-semibold text-blue-300">
+          <h1 className="font-audiowide font-semibold  text-blue-300 sm:text-3xl lg:text-6xl">
             Stalgic
           </h1>
         </div>
-        <div className="ml-[600px]  mt-40 flex flex-col">
+        <div className="mt-40 flex flex-col  sm:ml-[0px] sm:pl-[25px]  lg:ml-[400px]">
           <h1 className="text-4xl font-bold text-white ">
             Project Description:
           </h1>
+          <p className="mt-12 pb-4 text-justify text-gray-200 sm:max-w-xl sm:text-xl lg:max-w-4xl lg:text-2xl ">
+            Stalgic is a digital memory capsule, inspired by the age-old
+            tradition of burying a box of personal mementos to preserve memories
+            for future generations. The idea behind Stalgic is to offer a
+            modern-day version of this practice, allowing users to capture and
+            store special moments in a secure, virtual space. Whether it’s a
+            cherished photograph, a meaningful note, or a favourite memory,
+            Stalgic provides a way to safeguard those experiences for later
+            reflection. Created in just five days by a dedicated team of three,
+            this app solves the problem of losing memories in an increasingly
+            digital world, offering a simple yet meaningful way to hold on to
+            what matters most.
+          </p>
         </div>
       </div>
     </>
