@@ -13,6 +13,11 @@ export default function Stalgic() {
             Stalgic
           </h1>
         </div>
+        <div className="ml-[600px]  mt-40 flex flex-col">
+          <h1 className="text-4xl font-bold text-white ">
+            Project Description:
+          </h1>
+        </div>
       </div>
     </>
   )
