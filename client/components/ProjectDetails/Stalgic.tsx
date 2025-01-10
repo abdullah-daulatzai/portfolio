@@ -31,6 +31,9 @@ export default function Stalgic() {
             what matters most.
           </p>
         </div>
+        <div>
+          <h1 className="text-white"> Challenges and Solution </h1>
+        </div>
       </div>
     </>
   )

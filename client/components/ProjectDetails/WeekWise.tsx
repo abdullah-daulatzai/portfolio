@@ -31,6 +31,9 @@ export default function WeekWise() {
             what matters most.
           </p>
         </div>
+        <div>
+          <h1> Challenges and Solution </h1>
+        </div>
       </div>
     </>
   )
