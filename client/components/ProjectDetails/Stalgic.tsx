@@ -32,7 +32,7 @@ export default function Stalgic() {
           </p>
           <div className="mt-12 text-3xl font-bold">
             <h1 className="text-white"> Overcoming Challenges: </h1>
-            <p>
+            <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
               {' '}
               I served as the Backend Lead on this project, where I was
               responsible for designing and implementing the server-side
