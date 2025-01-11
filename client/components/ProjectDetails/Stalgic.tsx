@@ -31,7 +31,7 @@ export default function Stalgic() {
             what matters most.
           </p>
           <div className="mt-12 text-2xl font-bold">
-            <h1 className="text-white"> Challenges and Solution </h1>
+            <h1 className="text-white"> Overcoming Challenges: </h1>
           </div>
         </div>
       </div>
