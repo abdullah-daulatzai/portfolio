@@ -32,6 +32,12 @@ export default function Stalgic() {
           </p>
           <div className="mt-12 text-3xl font-bold">
             <h1 className="text-white"> Overcoming Challenges: </h1>
+            <p>
+              {' '}
+              I served as the Backend Lead on this project, where I was
+              responsible for designing and implementing the server-side
+              architecture to ensure seamless functionality and data security.
+            </p>
           </div>
         </div>
       </div>
