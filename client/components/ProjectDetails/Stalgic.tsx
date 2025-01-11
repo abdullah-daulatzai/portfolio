@@ -30,7 +30,7 @@ export default function Stalgic() {
             digital world, offering a simple yet meaningful way to hold on to
             what matters most.
           </p>
-          <div className="mt-12 text-2xl font-bold">
+          <div className="mt-12 text-3xl font-bold">
             <h1 className="text-white"> Overcoming Challenges: </h1>
           </div>
         </div>
