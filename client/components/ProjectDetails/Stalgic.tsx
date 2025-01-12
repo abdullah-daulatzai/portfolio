@@ -33,10 +33,19 @@ export default function Stalgic() {
           <div className="mt-12 text-3xl font-bold">
             <h1 className="text-white"> Overcoming Challenges: </h1>
             <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
-              {' '}
-              I served as the Backend Lead on this project, where I was
-              responsible for designing and implementing the server-side
-              architecture to ensure seamless functionality and data security.
+              During the project, I faced a few challenges. The first came when
+              I was implementing the media upload feature. I realised that over
+              time, a capsule could store a significant amount of media, and if
+              I stored these directly in the database, it could severely affect
+              performance. I also needed to ensure that users couldn’t upload
+              malicious files. To tackle this, I decided to implement Multer, a
+              middleware for handling file uploads, which allowed me to securely
+              manage the process. The second challenge was finding a way to keep
+              users engaged with the app and ensuring they would receive their
+              capsule data once it was unlocked. To address this, I implemented
+              an email notification system using Nodemailer and set up a Cron
+              job to send regular notifications, helping users stay connected
+              with their capsules and receive updates at the right time.
             </p>
           </div>
         </div>
