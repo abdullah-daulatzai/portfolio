@@ -31,7 +31,7 @@ export default function Stalgic() {
             what matters most.
           </p>
           <div className="mt-12 text-3xl ">
-            <h1 className="font-bold text-white"> Overcoming Challenges: </h1>
+            <h1 className="font-bold text-white">Challenges and Solutions:</h1>
             <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
               During the project, I faced a few challenges. The first came when
               I was implementing the media upload feature. I realised that over
@@ -43,10 +43,14 @@ export default function Stalgic() {
               manage the process. The second challenge was finding a way to keep
               users engaged with the app and ensuring they would receive their
               capsule data once it was unlocked. To address this, I implemented
-              an email notification system using Nodemailer and set up a Cron
+              an email notification feature using Nodemailer and set up a Cron
               job to send regular notifications, helping users stay connected
               with their capsules and receive updates at the right time.
             </p>
+          </div>
+          <div className="mt-12 text-3xl ">
+            <h1 className="font-bold text-white">Project Management:</h1>
+            <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl "></p>
           </div>
         </div>
       </div>
