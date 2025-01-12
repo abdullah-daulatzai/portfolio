@@ -30,8 +30,8 @@ export default function Stalgic() {
             digital world, offering a simple yet meaningful way to hold on to
             what matters most.
           </p>
-          <div className="mt-12 text-3xl font-bold">
-            <h1 className="text-white"> Overcoming Challenges: </h1>
+          <div className="mt-12 text-3xl ">
+            <h1 className="font-bold text-white"> Overcoming Challenges: </h1>
             <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
               During the project, I faced a few challenges. The first came when
               I was implementing the media upload feature. I realised that over
