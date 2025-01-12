@@ -32,20 +32,39 @@ export default function Stalgic() {
           </p>
           <div className="mt-12 text-3xl ">
             <h1 className="font-bold text-white">Challenges and Solutions:</h1>
-            <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
+            <p className="lg:text-md mt-12 pb-4 text-gray-300 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
               During the project, I faced a few challenges. The first came when
               I was implementing the media upload feature. I realised that over
               time, a capsule could store a significant amount of media, and if
               I stored these directly in the database, it could severely affect
               performance. I also needed to ensure that users couldn’t upload
-              malicious files. To tackle this, I decided to implement Multer, a
-              middleware for handling file uploads, which allowed me to securely
-              manage the process. The second challenge was finding a way to keep
-              users engaged with the app and ensuring they would receive their
-              capsule data once it was unlocked. To address this, I implemented
-              an email notification feature using Nodemailer and set up a Cron
-              job to send regular notifications, helping users stay connected
-              with their capsules and receive updates at the right time.
+              malicious files. To tackle this, I decided to implement{' '}
+              <a
+                href="https://www.npmjs.com/package/multer"
+                className="text-green-300 underline"
+              >
+                Multer
+              </a>{' '}
+              , a middleware for handling file uploads, which allowed me to
+              securely manage the process. The second challenge was finding a
+              way to keep users engaged with the app and ensuring they would
+              receive their capsule data once it was unlocked. To address this,
+              I implemented an email notification feature using{' '}
+              <a
+                href="https://nodemailer.com/"
+                className="text-green-300 underline"
+              >
+                Nodemailer
+              </a>{' '}
+              and set up a{' '}
+              <a
+                href="https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/"
+                className="text-green-300 underline"
+              >
+                Cron job
+              </a>{' '}
+              to send regular notifications, helping users stay connected with
+              their capsules and receive updates at the right time.
             </p>
           </div>
           <div className="mt-12 text-3xl ">
