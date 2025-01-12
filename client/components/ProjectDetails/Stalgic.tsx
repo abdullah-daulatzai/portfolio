@@ -78,6 +78,17 @@ export default function Stalgic() {
               Discord to stay connected throughout the project.
             </p>
           </div>
+          <div className="mt-12 text-3xl ">
+            <h1 className="font-bold text-white">My Contributions:</h1>
+            <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
+              <ul className="list-inside list-disc">
+                <li>
+                  Backend Lead: Ensured proper data structure and functionality
+                  for frontend integration.
+                </li>
+              </ul>
+            </p>
+          </div>
         </div>
       </div>
     </>
