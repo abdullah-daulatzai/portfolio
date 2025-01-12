@@ -7,7 +7,7 @@ export default function Stalgic() {
         <Nav />
       </header>
 
-      <div className="mt-44 flex min-h-screen flex-col  ">
+      <div className="mt-44 flex min-h-screen flex-col pb-32  ">
         <div className=" flex flex-col items-center">
           <h1 className="font-audiowide font-semibold  text-blue-300 sm:text-3xl lg:text-6xl">
             Stalgic
@@ -108,6 +108,11 @@ export default function Stalgic() {
                 </li>
               </ul>
             </p>
+          </div>
+        </div>
+        <div className="flex h-screen items-center justify-center ">
+          <div className="flex w-full max-w-sm flex-col items-center justify-center rounded-md border border-gray-800 bg-gray-500 p-6">
+            <div className="text-white">Hi</div>
           </div>
         </div>
       </div>
