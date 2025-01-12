@@ -86,6 +86,26 @@ export default function Stalgic() {
                   Backend Lead: Ensured proper data structure and functionality
                   for frontend integration.
                 </li>
+                <li>
+                  Database Design: Designed an efficient database structure for
+                  data management.
+                </li>
+                <li>
+                  Capsule CRUD Operations: Developed Capsule CRUD operations to
+                  manage user data and media.
+                </li>
+                <li>
+                  Media Upload with Multer: Implemented Multer for secure local
+                  file storage, avoiding database performance issues.
+                </li>
+                <li>
+                  Email Notifications: Created a system for sending periodic
+                  reminders and capsule data when unlocked.
+                </li>
+                <li>
+                  Cron Jobs: Set up Cron jobs to send annual reminders and
+                  deliver capsule data upon unlocking.
+                </li>
               </ul>
             </p>
           </div>
