@@ -147,12 +147,8 @@ export default function WeekWise() {
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">Project Management:</h1>
             <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
-              We used the Agile project management methodology, holding daily
-              stand-ups to ensure consistent communication and alignment. For
-              task management, we utilised GitHub Projects to organise our
-              workflow into manageable tickets, allowing us to track progress
-              efficiently. Additionally, we communicated both in person and via
-              Discord to stay connected throughout the project.
+              I utilised GitHub Projects to organise our workflow into
+              manageable tickets, allowing me to track progress efficiently.
             </p>
           </div>
 
