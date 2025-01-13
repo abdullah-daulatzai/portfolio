@@ -147,57 +147,18 @@ export default function WeekWise() {
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">Project Management:</h1>
             <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
-              I utilised GitHub Projects to organise our workflow into
-              manageable tickets, allowing me to track progress efficiently.
+              I utilised GitHub Projects to organise my workflow into manageable
+              tickets, allowing me to track progress efficiently.
             </p>
           </div>
 
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">My Contributions:</h1>
             <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
-              <ul className="list-inside list-disc">
-                <li>
-                  <span className="font-bold text-white"> Backend Lead:</span>{' '}
-                  Ensured proper data structure and functionality for frontend
-                  integration.
-                </li>
-                <li>
-                  <span className="font-bold text-white">
-                    {' '}
-                    Database Design:{' '}
-                  </span>{' '}
-                  Designed an efficient database structure for data management.
-                </li>
-                <li>
-                  <span className="font-bold text-white">
-                    {' '}
-                    Capsule CRUD Operations:{' '}
-                  </span>{' '}
-                  Developed Capsule CRUD operations to manage user data and
-                  media.
-                </li>
-                <li>
-                  <span className="font-bold text-white">
-                    {' '}
-                    Media Upload with Multer:{' '}
-                  </span>{' '}
-                  Implemented Multer for secure local file storage, avoiding
-                  database performance issues.
-                </li>
-                <li>
-                  <span className="font-bold text-white">
-                    {' '}
-                    Email Notifications:{' '}
-                  </span>{' '}
-                  Created a system for sending periodic reminders and capsule
-                  data when unlocked.
-                </li>
-                <li>
-                  <span className="font-bold text-white"> Cron Jobs: </span> Set
-                  up Cron jobs to send annual reminders and deliver capsule data
-                  upon unlocking.
-                </li>
-              </ul>
+              As the sole developer, I took on all aspects of the project, from
+              feature development and database optimisation to integrating
+              visualisation tools such as the React Circular Progressive Bar and
+              Chart.js.
             </p>
           </div>
         </div>
