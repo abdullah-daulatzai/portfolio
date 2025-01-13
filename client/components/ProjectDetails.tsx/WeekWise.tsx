@@ -20,13 +20,13 @@ export default function WeekWise() {
           <h1 className="text-xl font-bold text-white sm:text-3xl">
             Project Description:
           </h1>
-          <p className="lg:text-md mt-4 pb-4 text-sm text-gray-200 sm:mt-8 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
+          <p className="mt-4 pb-4 text-sm text-gray-200 sm:mt-8 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl lg:text-[16px]">
             WeekWise is a productivity app designed to help users manage both
             their finances and health with ease. It combines powerful features
             to offer insights into spending habits and physical well-being. The
             Finance Management tool is inspired by a TED talk on financial
             habits, where the speaker explained how small, repeated purchases —
-            such as a £4 item bought impulsively — can add up significantly over
+            such as a $4 item bought impulsively — can add up significantly over
             time. I integrated a similar feature into WeekWise, which tracks
             user spending over a six-month period, highlighting unnecessary,
             repeated purchases. For instance, if I bought Monster Energy 70
@@ -44,35 +44,50 @@ export default function WeekWise() {
             even more tools to improve their productivity and well-being.
           </p>
           <p className="lg:text:md text-white"> Technology Stack:</p>
-          <ul className="mt-4 list-inside list-disc text-white">
-            <li>
-              <span className="font-bold text-white"> React:</span> &nbsp;
-              Chosen for building dynamic and interactive user interfaces.
+          <ul className="mt-4 list-inside list-disc text-white ">
+            <li className="lg:text-[16px]">
+              <span className="font-bold text-white lg:text-[16px]">
+                {' '}
+                React:
+              </span>{' '}
+              &nbsp; Chosen for building dynamic and interactive user
+              interfaces.
             </li>
-            <li>
-              <span className="font-bold text-white">CSS: </span> &nbsp; elegant
-              styling.
+            <li className="lg:text-[16px]">
+              <span className="font-bold text-white lg:text-[16px]">CSS: </span>{' '}
+              &nbsp; elegant styling.
             </li>
-            <li>
-              <span className="font-bold text-white"> Javascript:</span> &nbsp;
-              For managing application logic and interactivity.
+            <li className="lg:text-[16px]">
+              <span className="font-bold text-white lg:text-[16px]">
+                {' '}
+                Javascript:
+              </span>{' '}
+              &nbsp; For managing application logic and interactivity.
             </li>
-            <li>
-              <span className="font-bold text-white"> TypeScript:</span> &nbsp;
-              Used for type safety and better development experience.
+            <li className="lg:text-[16px]">
+              <span className="font-bold text-white lg:text-[16px]">
+                {' '}
+                TypeScript:
+              </span>{' '}
+              &nbsp; Used for type safety and better development experience.
             </li>
 
-            <li>
-              <span className="font-bold text-white">Express.js:</span> &nbsp;
-              Chosen for setting up the backend server and handling HTTP
+            <li className="lg:text-[16px]">
+              <span className="font-bold text-white lg:text-[16px]">
+                Express.js:
+              </span>{' '}
+              &nbsp; Chosen for setting up the backend server and handling HTTP
               requests.
             </li>
-            <li>
-              <span className="font-bold text-white">SQLite3: </span>&nbsp; A
-              lightweight relational database used for storing project data.
+            <li className="lg:text-[16px]">
+              <span className="font-bold text-white lg:text-[16px]">
+                SQLite3:{' '}
+              </span>
+              &nbsp; A lightweight relational database used for storing project
+              data.
             </li>
-            <li>
-              <span className="font-bold text-white">
+            <li className="lg:text-[16px]">
+              <span className="font-bold text-white lg:text-[16px]">
                 Circular Progressive Bar:{' '}
               </span>{' '}
               &nbsp; Implemented to visually represent progress in a circular
