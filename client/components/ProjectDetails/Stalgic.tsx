@@ -131,28 +131,45 @@ export default function Stalgic() {
             <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
               <ul className="list-inside list-disc">
                 <li>
-                  Backend Lead: Ensured proper data structure and functionality
-                  for frontend integration.
+                  <span className="font-bold text-white"> Backend Lead:</span>{' '}
+                  Ensured proper data structure and functionality for frontend
+                  integration.
                 </li>
                 <li>
-                  Database Design: Designed an efficient database structure for
-                  data management.
+                  <span className="font-bold text-white">
+                    {' '}
+                    Database Design:{' '}
+                  </span>{' '}
+                  Designed an efficient database structure for data management.
                 </li>
                 <li>
-                  Capsule CRUD Operations: Developed Capsule CRUD operations to
-                  manage user data and media.
+                  <span className="font-bold text-white">
+                    {' '}
+                    Capsule CRUD Operations:{' '}
+                  </span>{' '}
+                  Developed Capsule CRUD operations to manage user data and
+                  media.
                 </li>
                 <li>
-                  Media Upload with Multer: Implemented Multer for secure local
-                  file storage, avoiding database performance issues.
+                  <span className="font-bold text-white">
+                    {' '}
+                    Media Upload with Multer:{' '}
+                  </span>{' '}
+                  Implemented Multer for secure local file storage, avoiding
+                  database performance issues.
                 </li>
                 <li>
-                  Email Notifications: Created a system for sending periodic
-                  reminders and capsule data when unlocked.
+                  <span className="font-bold text-white">
+                    {' '}
+                    Email Notifications:{' '}
+                  </span>{' '}
+                  Created a system for sending periodic reminders and capsule
+                  data when unlocked.
                 </li>
                 <li>
-                  Cron Jobs: Set up Cron jobs to send annual reminders and
-                  deliver capsule data upon unlocking.
+                  <span className="font-bold text-white"> Cron Jobs: </span> Set
+                  up Cron jobs to send annual reminders and deliver capsule data
+                  upon unlocking.
                 </li>
               </ul>
             </p>
