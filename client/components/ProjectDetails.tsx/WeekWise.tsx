@@ -129,19 +129,18 @@ export default function WeekWise() {
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">My Learning:</h1>
             <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
-              What I really enjoyed about this project was the opportunity to
-              learn and apply new technologies. I worked with{' '}
-              <span className="font-bold text-green-300"> Multer </span> to
-              securely handle file uploads and store them locally, which
-              improved performance. I also used{' '}
-              <span className="font-bold text-green-300"> Nodemailer </span> to
-              set up email notifications, ensuring that users stayed engaged
-              with their capsules. Additionally, I gained experience with{' '}
-              <span className="font-bold text-green-300"> Cron Jobs </span>,
-              automating tasks such as sending periodic email reminders. This
-              project not only enhanced my technical skills but also taught me
-              how to solve real-world problems efficiently, and I’m excited to
-              apply these lessons in future work.
+              During this project, I learnt how to optimise database performance
+              through{' '}
+              <span className="font-bold text-green-300">indexing </span>,
+              explored the use of the{' '}
+              <span className="font-bold text-green-300">
+                {' '}
+                React Circular Progressive Bar library{' '}
+              </span>{' '}
+              to visually track progress, and began learning how to use{' '}
+              <span className="font-bold text-green-300"> Chart.js </span> to
+              display various charts for presenting data in a clear and engaging
+              way.
             </p>
           </div>
 
