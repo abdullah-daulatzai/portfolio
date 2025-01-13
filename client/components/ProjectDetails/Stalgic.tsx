@@ -31,8 +31,50 @@ export default function Stalgic() {
             reflection. Created in just five days by a dedicated team of three,
             this app solves the problem of losing memories in an increasingly
             digital world, offering a simple yet meaningful way to hold on to
-            what matters most.
+            what matters most.{' '}
           </p>
+          <p className="text-white"> Technology Stack:</p>
+          <ul className="mt-4 list-inside list-disc text-white">
+            <li>
+              <span className="font-bold text-white"> React:</span> &nbsp;
+              Chosen for building dynamic and interactive user interfaces.
+            </li>
+            <li>
+              <span className="font-bold text-white"> Tailwind CSS: </span>{' '}
+              &nbsp; For responsive and elegant styling.
+            </li>
+            <li>
+              <span className="font-bold text-white"> Javascript:</span> &nbsp;
+              For managing application logic and interactivity.
+            </li>
+            <li>
+              <span className="font-bold text-white"> TypeScript:</span> &nbsp;
+              Used for type safety and better development experience.
+            </li>
+            <li>
+              <span className="font-bold text-white">Multer:</span> &nbsp;
+              Applied for secure file uploading and handling media files
+              efficiently.
+            </li>
+            <li>
+              <span className="font-bold text-white">Express.js:</span> &nbsp;
+              Chosen for setting up the backend server and handling HTTP
+              requests.
+            </li>
+            <li>
+              <span className="font-bold text-white">SQLite3: </span>&nbsp; A
+              lightweight relational database used for storing project data.
+            </li>
+            <li>
+              <span className="font-bold text-white">Nodemailer: </span> &nbsp;
+              Implemented for sending email notifications to users.
+            </li>
+            <li>
+              <span className="font-bold text-white">Cron Job: </span> &nbsp;
+              Used to schedule periodic tasks like sending regular email
+              notifications.
+            </li>
+          </ul>
 
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">Challenges and Solutions:</h1>
