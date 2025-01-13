@@ -10,17 +10,17 @@ export default function Stalgic() {
         <Nav />
       </header>
 
-      <div className="mt-44 flex min-h-screen flex-col pb-16 ">
-        <div className=" flex flex-col items-center">
-          <h1 className="font-audiowide font-semibold  text-blue-300 sm:text-3xl lg:text-6xl">
+      <div className="mt-32 flex min-h-screen flex-col px-4 pb-16 sm:px-8 md:px-16">
+        <div className="flex flex-col items-center lg:mt-12">
+          <h1 className="font-audiowide text-2xl font-semibold text-blue-300 sm:text-3xl lg:text-6xl">
             Stalgic
           </h1>
         </div>
-        <div className="mt-40 flex flex-col  sm:ml-[0px] sm:pl-[25px]  lg:ml-[260px]">
-          <h1 className="text-3xl font-bold text-white ">
+        <div className="  flex flex-col sm:ml-0 sm:mt-16 sm:pl-4 lg:ml-[230px]">
+          <h1 className="text-xl font-bold text-white sm:text-3xl">
             Project Description:
           </h1>
-          <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
+          <p className="lg:text-md mt-4 pb-4 text-sm text-gray-200 sm:mt-8 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
             Stalgic is a digital memory capsule, inspired by the age-old
             tradition of burying a box of personal mementos to preserve memories
             for future generations. The idea behind Stalgic is to offer a
@@ -33,9 +33,10 @@ export default function Stalgic() {
             digital world, offering a simple yet meaningful way to hold on to
             what matters most.
           </p>
-          <div className="mt-12 text-3xl ">
+
+          <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">Challenges and Solutions:</h1>
-            <p className="lg:text-md mt-12 pb-4 text-gray-300 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
+            <p className="lg:text-md mt-8 pb-4 text-sm text-gray-300 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
               During the project, I faced a few challenges. The first came when
               I was implementing the media upload feature. I realised that over
               time, a capsule could store a significant amount of media, and if
@@ -70,9 +71,10 @@ export default function Stalgic() {
               their capsules and receive updates at the right time.
             </p>
           </div>
-          <div className="mt-12 text-3xl ">
+
+          <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">Project Management:</h1>
-            <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
+            <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
               We used the Agile project management methodology, holding daily
               stand-ups to ensure consistent communication and alignment. For
               task management, we utilised GitHub Projects to organise our
@@ -81,9 +83,10 @@ export default function Stalgic() {
               Discord to stay connected throughout the project.
             </p>
           </div>
-          <div className="mt-12 text-3xl ">
+
+          <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">My Contributions:</h1>
-            <p className="lg:text-md mt-12 pb-4  text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl ">
+            <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
               <ul className="list-inside list-disc">
                 <li>
                   Backend Lead: Ensured proper data structure and functionality
@@ -113,11 +116,10 @@ export default function Stalgic() {
             </p>
           </div>
         </div>
-        <br></br>
-        <br></br>
-        <div className="flex justify-center  transition-transform duration-300 hover:scale-105">
-          <a href=" https://github.com/abdullah-daulatzai/stalgic">
-            <div className="flex  flex-col items-center justify-center rounded-md border border-gray-800 bg-gray-400  p-2 hover:bg-gray-500">
+
+        <div className="mt-16 flex justify-center transition-transform duration-300 hover:scale-105">
+          <a href="https://github.com/abdullah-daulatzai/stalgic">
+            <div className="flex flex-col items-center justify-center rounded-md border border-gray-800 bg-gray-400 p-4 hover:bg-gray-500">
               <div className="flex w-16 flex-col items-center text-gray-900">
                 <FontAwesomeIcon icon={faGithub} className="text-7xl" />
                 <br />
@@ -128,7 +130,7 @@ export default function Stalgic() {
                 <br />
               </div>
 
-              <p className="max-w-full text-center lg:text-xl">
+              <p className="max-w-full text-center text-sm sm:text-base lg:text-xl">
                 Click here to see the source code
               </p>
             </div>
