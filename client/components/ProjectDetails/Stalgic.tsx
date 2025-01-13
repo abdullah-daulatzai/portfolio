@@ -113,6 +113,24 @@ export default function Stalgic() {
               their capsules and receive updates at the right time.
             </p>
           </div>
+          <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
+            <h1 className="font-bold text-white">My Learning:</h1>
+            <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
+              What I really enjoyed about this project was the opportunity to
+              learn and apply new technologies. I worked with{' '}
+              <span className="font-bold text-green-300"> Multer </span> to
+              securely handle file uploads and store them locally, which
+              improved performance. I also used{' '}
+              <span className="font-bold text-green-300"> Nodemailer </span> to
+              set up email notifications, ensuring that users stayed engaged
+              with their capsules. Additionally, I gained experience with{' '}
+              <span className="font-bold text-green-300"> Cron Jobs </span>,
+              automating tasks such as sending periodic email reminders. This
+              project not only enhanced my technical skills but also taught me
+              how to solve real-world problems efficiently, and I’m excited to
+              apply these lessons in future work.
+            </p>
+          </div>
 
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">Project Management:</h1>
