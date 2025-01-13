@@ -98,18 +98,32 @@ export default function WeekWise() {
 
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">Challenges and Solutions:</h1>
-            <p className="lg:text-md mt-8 pb-4 text-sm text-gray-300 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
-              <span className="font-bold text-white"> 1: </span> Identifying
-              Unnecessary and Unhealthy Purchases: Initially, I wasn’t certain
-              how to automate the detection of unnecessary and unhealthy
-              purchases, such as sugary drinks, snacks, or fast food, over a
-              six-month period. After some thought, I devised a temporary
-              solution using multiple conditional classes to track these items.
-              However, I recognise that this is not the most efficient or
-              scalable approach. In the future, I plan to integrate machine
-              learning algorithms to train the system, enabling it to better
-              understand purchasing patterns and make more accurate
-              classifications.
+            <p className="mt-8 pb-4 text-sm text-gray-300 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl lg:text-[16px]">
+              <span className="font-bold text-white"> 1:&nbsp;</span>{' '}
+              <span className="font-bold text-gray-100">
+                {' '}
+                Identifying Unnecessary and Unhealthy Purchases:
+              </span>{' '}
+              Initially, I wasn’t certain how to automate the detection of
+              unnecessary and unhealthy purchases, such as sugary drinks,
+              snacks, or fast food, over a six-month period. After some thought,
+              I devised a temporary solution using multiple conditional classes
+              to track these items. However, I recognise that this is not the
+              most efficient or scalable approach. In the future, I plan to
+              integrate machine learning algorithms to train the system,
+              enabling it to better understand purchasing patterns and make more
+              accurate classifications.
+              <br></br>
+              <br></br>
+              <span className="font-bold text-white"> 2:&nbsp;</span>{' '}
+              <span className="font-bold text-gray-100">
+                Optimising Database Performance:{' '}
+              </span>{' '}
+              As the app stores large volumes of data, performance could
+              potentially degrade, especially when filtering through transaction
+              records. To address this, I implemented database indexing, which
+              greatly improved data retrieval speeds and ensured the app
+              maintained optimal performance as it scaled.
             </p>
           </div>
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
