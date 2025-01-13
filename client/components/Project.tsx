@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 export default function Project() {
   return (
     <>
-      <Link to="/stalgic">
+      <Link to="/weekwise">
         <div
           id="my_projects"
           className="justify-even flex  h-full flex-wrap justify-center gap-12 p-12"
