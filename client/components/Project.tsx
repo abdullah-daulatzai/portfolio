@@ -14,6 +14,15 @@ export default function Project() {
           className="justify-even flex  h-full flex-wrap justify-center gap-12 p-12"
         >
           <div className="flex flex-col rounded-md border border-gray-800 bg-[#141414] pl-3 pr-3 pt-16 transition-transform  duration-300 hover:scale-105 hover:bg-purple-900  sm:w-full md:w-1/3 lg:h-[490px] lg:w-[30%]">
+            <div className=" flex justify-end">
+              <a
+                href=""
+                className="mt-[-50px] text-3xl text-gray-300 hover:text-green-400"
+              >
+                <FontAwesomeIcon icon={faExternalLink} />
+              </a>
+            </div>
+
             <img
               src="/portfolio/weekwise.png"
               alt="WeekWise"
@@ -75,7 +84,7 @@ export default function Project() {
           <div className="flex  flex-col rounded-md border border-gray-800 bg-[#141414] pl-3 pr-3  pt-16 transition-transform duration-300 hover:scale-105 hover:bg-purple-900  sm:w-full md:w-1/3 lg:h-[490px] lg:w-[30%]">
             <div className=" flex justify-end">
               <a
-                href="/some-link"
+                href=""
                 className="mt-[-50px] text-3xl text-gray-300 hover:text-green-400"
               >
                 <FontAwesomeIcon icon={faExternalLink} />
@@ -134,6 +143,14 @@ export default function Project() {
           </div>
 
           <div className="flex  flex-col rounded-md border border-gray-800 bg-[#141414] pl-3 pr-3  pt-16 transition-transform duration-300 hover:scale-105 hover:bg-purple-900  sm:w-full md:w-1/3 lg:h-[490px] lg:w-[30%]">
+            <div className=" flex justify-end">
+              <a
+                href=""
+                className="mt-[-50px] text-3xl text-gray-300 hover:text-green-400"
+              >
+                <FontAwesomeIcon icon={faExternalLink} />
+              </a>
+            </div>
             <img
               src="public/covid19.png"
               alt="WeekWise"
