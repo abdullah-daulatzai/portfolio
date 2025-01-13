@@ -99,38 +99,17 @@ export default function WeekWise() {
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">Challenges and Solutions:</h1>
             <p className="lg:text-md mt-8 pb-4 text-sm text-gray-300 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
-              During the project, I faced a few challenges. The first came when
-              I was implementing the media upload feature. I realised that over
-              time, a capsule could store a significant amount of media, and if
-              I stored these directly in the database, it could severely affect
-              performance. I also needed to ensure that users couldn’t upload
-              malicious files. To tackle this, I decided to implement{' '}
-              <a
-                href="https://www.npmjs.com/package/multer"
-                className="text-green-300 underline"
-              >
-                Multer
-              </a>{' '}
-              , a middleware for handling file uploads, which allowed me to
-              securely manage the process. The second challenge was finding a
-              way to keep users engaged with the app and ensuring they would
-              receive their capsule data once it was unlocked. To address this,
-              I implemented an email notification feature using{' '}
-              <a
-                href="https://nodemailer.com/"
-                className="text-green-300 underline"
-              >
-                Nodemailer
-              </a>{' '}
-              and set up a{' '}
-              <a
-                href="https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/"
-                className="text-green-300 underline"
-              >
-                Cron job
-              </a>{' '}
-              to send regular notifications, helping users stay connected with
-              their capsules and receive updates at the right time.
+              <span className="font-bold text-white"> 1: </span> Identifying
+              Unnecessary and Unhealthy Purchases: Initially, I wasn’t certain
+              how to automate the detection of unnecessary and unhealthy
+              purchases, such as sugary drinks, snacks, or fast food, over a
+              six-month period. After some thought, I devised a temporary
+              solution using multiple conditional classes to track these items.
+              However, I recognise that this is not the most efficient or
+              scalable approach. In the future, I plan to integrate machine
+              learning algorithms to train the system, enabling it to better
+              understand purchasing patterns and make more accurate
+              classifications.
             </p>
           </div>
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
