@@ -16,6 +16,16 @@ export default function Covid19Tracker() {
             Covid19 Tracker
           </h1>
         </div>
+        <div className="mt-32 flex flex-col items-center">
+          <iframe
+            className="lg:h-100 h-54 sm:h-70 w-full max-w-xl   md:h-72 "
+            src="https://www.youtube.com/embed/bW-Ipgq67ZQ?si=Hfdbygg3LmSXVeMo"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
         <div className="  flex flex-col sm:ml-0 sm:mt-16 sm:pl-4 lg:ml-[230px]">
           <h1 className="text-xl font-bold text-white sm:text-3xl">
             Project Description:
