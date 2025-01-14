@@ -47,10 +47,12 @@ function App() {
           </div>
           <div className="mt-8 flex flex-row flex-wrap justify-center gap-12">
             <div className="items-center text-blue-500">
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                className="text-4xl hover:scale-105 sm:text-5xl"
-              />
+              <a href="mailto:abdullahdaulatzai1@gmail.com">
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="text-4xl hover:scale-105 sm:text-5xl"
+                />
+              </a>
             </div>
             <div className=" items-center text-blue-500">
               <a href="https://github.com/abdullah-daulatzai">
