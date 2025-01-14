@@ -16,6 +16,16 @@ export default function WeekWise() {
             WeekWise
           </h1>
         </div>
+        <div className="mt-32 flex flex-col items-center">
+          <iframe
+            className="mx-auto mb-8 mt-4 h-56 w-full max-w-xl sm:h-72 md:h-80 lg:h-80"
+            src="https://www.youtube.com/embed/2tGBF6trkS4?si=gY-7uPmer_RO-Xim"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
         <div className="  flex flex-col sm:ml-0 sm:mt-16 sm:pl-4 lg:ml-[230px]">
           <h1 className="text-xl font-bold text-white sm:text-3xl">
             Project Description:
@@ -97,6 +107,16 @@ export default function WeekWise() {
           </ul>
 
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
+            <h1 className="font-bold text-white">Current Status:</h1>
+            <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
+              At present, WeekWise is still under development, with the Finance
+              Management feature being the primary functionality. Future updates
+              will introduce health and fitness tracking features, alongside
+              other enhancements.
+            </p>
+          </div>
+
+          <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">Challenges and Solutions:</h1>
             <p className="mt-8 pb-4 text-sm text-gray-300 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl lg:text-[16px]">
               <span className="font-bold text-white"> 1:&nbsp;</span>{' '}
@@ -137,10 +157,31 @@ export default function WeekWise() {
                 {' '}
                 React Circular Progressive Bar library{' '}
               </span>{' '}
-              to visually track progress, and began learning how to use{' '}
-              <span className="font-bold text-green-300"> Chart.js </span> to
-              display various charts for presenting data in a clear and engaging
-              way.
+              to visually track progress, and am continuing to learn how to use{' '}
+              <span className="font-bold text-green-300">
+                {' '}
+                <a
+                  href=" https://www.npmjs.com/package/recharts"
+                  className="underline decoration-yellow-500"
+                >
+                  {' '}
+                  Recharts{' '}
+                </a>{' '}
+              </span>{' '}
+              and{' '}
+              <span className="font-bold text-green-300">
+                {' '}
+                <a
+                  href="https://www.npmjs.com/package/nivo"
+                  className="underline decoration-yellow-500"
+                >
+                  Nivo{' '}
+                </a>{' '}
+              </span>{' '}
+              to display various charts for presenting data in a clear and
+              engaging way. These tools are essential for implementing the app's
+              future features, which will be heavily focused on data
+              visualisation and user engagement.
             </p>
           </div>
 
@@ -155,10 +196,13 @@ export default function WeekWise() {
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">My Contributions:</h1>
             <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
-              As the sole developer, I took on all aspects of the project, from
-              feature development and database optimisation to integrating
-              visualisation tools such as the React Circular Progressive Bar and
-              Chart.js.
+              As the sole developer, I am responsible for all aspects of the
+              project, including initial feature development, database
+              optimisation, and the integration of visualisation tools such as
+              the React Circular Progressive Bar. Currently, the app’s Finance
+              Management feature is live, and I am continuing to work on future
+              updates to incorporate health and fitness tracking, along with
+              further data visualisation improvements.
             </p>
           </div>
         </div>
