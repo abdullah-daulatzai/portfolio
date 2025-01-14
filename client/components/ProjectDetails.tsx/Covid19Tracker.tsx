@@ -106,16 +106,18 @@ export default function Covid19Tracker() {
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">My Contributions:</h1>
             <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
-              As the sole developer, I took on all aspects of the project, from
-              feature development and database optimisation to integrating
-              visualisation tools such as the React Circular Progressive Bar and
-              Chart.js.
+              As the sole contributor to this project, I was responsible for all
+              aspects, including design, development, data handling, and
+              integration of third-party libraries. I implemented real-time data
+              fetching with Axios, built a responsive UI using Material UI, and
+              visualised the data with Chart.js. Additionally, I handled the
+              overall project management.
             </p>
           </div>
         </div>
 
         <div className="mt-16 flex justify-center transition-transform duration-300 hover:scale-105">
-          <a href="https://github.com/abdullah-daulatzai/weekwise">
+          <a href="https://github.com/abdullah-daulatzai/covid19_tracker">
             <div className="flex flex-col items-center justify-center rounded-md border border-gray-800 bg-gray-400 p-4 hover:bg-gray-500">
               <div className="flex w-16 flex-col items-center text-gray-900">
                 <FontAwesomeIcon icon={faGithub} className="text-7xl" />
