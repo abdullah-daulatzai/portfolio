@@ -87,18 +87,11 @@ export default function Covid19Tracker() {
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">My Learning:</h1>
             <p className="lg:text-md mt-8 pb-4 text-sm text-gray-200 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl">
-              During this project, I learnt how to optimise database performance
-              through{' '}
-              <span className="font-bold text-green-300">indexing </span>,
-              explored the use of the{' '}
-              <span className="font-bold text-green-300">
-                {' '}
-                React Circular Progressive Bar library{' '}
-              </span>{' '}
-              to visually track progress, and began learning how to use{' '}
-              <span className="font-bold text-green-300"> Chart.js </span> to
-              display various charts for presenting data in a clear and engaging
-              way.
+              In this project, I learnt how to fetch and manage real-time data
+              using Axios and React hooks like useEffect and useState. I also
+              gained experience with Material UI for building a responsive UI
+              and used Chart.js to visualise data through interactive charts,
+              improving my skills in working with APIs and dynamic React apps.
             </p>
           </div>
 
