@@ -96,7 +96,7 @@ export default function Project() {
             <h3 className="mt-4 text-center text-xl font-semibold text-white">
               Covid19 Tracker
             </h3>
-            <div className="mx-auto mt-4 flex max-w-screen-lg flex-wrap justify-evenly gap-2 px-4 sm:px-6 lg:px-6">
+            <div className="mx-auto mt-4 flex max-w-screen-lg flex-wrap justify-evenly gap-2 px-4 sm:px-6 lg:px-4">
               <div className="flex flex-col items-center text-yellow-300">
                 <FontAwesomeIcon
                   icon={faJs}
@@ -164,9 +164,9 @@ export default function Project() {
             />
 
             <h3 className="mt-4 text-center text-xl font-semibold text-white">
-              Week Wise
+              WeekWise
             </h3>
-            <div className="mx-auto mt-4 flex max-w-screen-lg flex-wrap justify-evenly gap-2 px-4 sm:px-6 lg:px-6">
+            <div className="mx-auto mt-4 flex max-w-screen-lg flex-wrap justify-evenly gap-2 px-4 sm:px-6 lg:px-4">
               <div className="flex flex-col items-center text-yellow-300">
                 <FontAwesomeIcon
                   icon={faJs}

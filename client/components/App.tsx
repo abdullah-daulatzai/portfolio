@@ -5,7 +5,7 @@ import Project from './Project'
 import Contact from './Contact'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function App() {
   return (
@@ -56,10 +56,9 @@ function App() {
             </div>
             <div className=" items-center text-blue-500">
               <a href="https://github.com/abdullah-daulatzai">
-                <img
-                  src="public/github.svg"
-                  alt="GitHub"
-                  className="w-10 hover:scale-105 sm:w-16"
+                <FontAwesomeIcon
+                  icon={faGithub}
+                  className="text-5xl  hover:scale-105"
                 />
               </a>
             </div>
