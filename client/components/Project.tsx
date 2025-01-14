@@ -23,7 +23,7 @@ export default function Project() {
               </a>
             </div>
             <img
-              src="public/Stalgic.png"
+              src="/portfolio/Stalgic.png"
               alt="WeekWise"
               className="h-38 w-full  rounded-md"
             />
@@ -55,7 +55,7 @@ export default function Project() {
               </div>
               <div className="mt-[-2%] flex  w-10 flex-col items-center text-green-400">
                 <img
-                  src="public/express.png"
+                  src="/portfolio/express.png"
                   alt="express.js"
                   className="hover:scale-105"
                 />
@@ -89,7 +89,7 @@ export default function Project() {
               </a>
             </div>
             <img
-              src="public/covid19.png"
+              src="/portfolio/covid19.png"
               alt="WeekWise"
               className="h-38 w-full  rounded-md"
             />

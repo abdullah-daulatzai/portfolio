@@ -21,7 +21,7 @@ export default function AboutMe() {
         <div className="mt-10 flex flex-col gap-y-10 md:flex-row md:gap-x-10">
           <div className="mb-16 h-[350px] w-[270px] flex-none self-center md:ml-[3%] lg:ml-[15%]">
             <img
-              src="public/pro.png"
+              src="/portfolio/pro.png"
               alt="Photo"
               className="h-full w-full border-4 border-double border-green-700 bg-[#CCCDCD] object-cover  transition duration-300 ease-in-out hover:bg-opacity-95 md:w-96 lg:w-[500px] lg:pt-20"
             />
