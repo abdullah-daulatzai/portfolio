@@ -42,7 +42,9 @@ export default function Covid19Tracker() {
               interfaces.
             </li>
             <li className="lg:text-[16px]">
-              <span className="font-bold text-white lg:text-[16px]">CSS: </span>{' '}
+              <span className="font-bold text-white lg:text-[16px]">
+                Material UI:{' '}
+              </span>{' '}
               &nbsp; elegant styling.
             </li>
             <li className="lg:text-[16px]">
@@ -52,66 +54,34 @@ export default function Covid19Tracker() {
               </span>{' '}
               &nbsp; For managing application logic and interactivity.
             </li>
-            <li className="lg:text-[16px]">
-              <span className="font-bold text-white lg:text-[16px]">
-                {' '}
-                TypeScript:
-              </span>{' '}
-              &nbsp; Used for type safety and better development experience.
-            </li>
 
             <li className="lg:text-[16px]">
               <span className="font-bold text-white lg:text-[16px]">
-                Express.js:
+                Chart.js:{' '}
               </span>{' '}
-              &nbsp; Chosen for setting up the backend server and handling HTTP
-              requests.
-            </li>
-            <li className="lg:text-[16px]">
-              <span className="font-bold text-white lg:text-[16px]">
-                SQLite3:{' '}
-              </span>
-              &nbsp; A lightweight relational database used for storing project
-              data.
-            </li>
-            <li className="lg:text-[16px]">
-              <span className="font-bold text-white lg:text-[16px]">
-                Circular Progressive Bar:{' '}
-              </span>{' '}
-              &nbsp; Implemented to visually represent progress in a circular
-              format, offering an engaging and dynamic way to display completion
-              percentages.
+              &nbsp; Implemented to visually represent data through interactive
+              charts, offering an engaging and dynamic way to display
+              statistical information.
             </li>
           </ul>
 
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
             <h1 className="font-bold text-white">Challenges and Solutions:</h1>
             <p className="mt-8 pb-4 text-sm text-gray-300 sm:max-w-sm sm:max-w-xl sm:text-lg lg:max-w-3xl lg:text-[16px]">
-              <span className="font-bold text-white"> 1:&nbsp;</span>{' '}
-              <span className="font-bold text-gray-100">
-                {' '}
-                Identifying Unnecessary and Unhealthy Purchases:
-              </span>{' '}
-              Initially, I wasn’t certain how to automate the detection of
-              unnecessary and unhealthy purchases, such as sugary drinks,
-              snacks, or fast food, over a six-month period. After some thought,
-              I devised a temporary solution using multiple conditional classes
-              to track these items. However, I recognise that this is not the
-              most efficient or scalable approach. In the future, I plan to
-              integrate machine learning algorithms to train the system,
-              enabling it to better understand purchasing patterns and make more
-              accurate classifications.
-              <br></br>
-              <br></br>
-              <span className="font-bold text-white"> 2:&nbsp;</span>{' '}
-              <span className="font-bold text-gray-100">
-                Optimising Database Performance:{' '}
-              </span>{' '}
-              As the app stores large volumes of data, performance could
-              potentially degrade, especially when filtering through transaction
-              records. To address this, I implemented database indexing, which
-              greatly improved data retrieval speeds and ensured the app
-              maintained optimal performance as it scaled.
+              As this was my first React project using public APIs, I initially
+              struggled with fetching and updating real-time data. After
+              researching and learning the basics of{' '}
+              <span className="font-bold text-green-300">Axios </span>, I used
+              it alongside{' '}
+              <span className="font-bold text-green-300">useEffect </span> and{' '}
+              <span className="font-bold text-green-300"> useState </span> hooks
+              to ensure smooth data fetching and updates, with setInterval
+              managing automatic refreshes. I also had difficulty displaying the
+              data statistically, but after researching and comparing various
+              chart libraries, I chose{' '}
+              <span className="font-bold text-green-300">Chart.js </span> for
+              its simplicity and flexibility, which allowed me to present the
+              data clearly and effectively.
             </p>
           </div>
           <div className="mt-8 text-xl sm:mt-16 sm:text-3xl">
