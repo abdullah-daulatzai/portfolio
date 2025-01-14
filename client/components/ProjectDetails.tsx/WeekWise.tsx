@@ -164,7 +164,7 @@ export default function WeekWise() {
         </div>
 
         <div className="mt-16 flex justify-center transition-transform duration-300 hover:scale-105">
-          <a href="https://github.com/abdullah-daulatzai/stalgic">
+          <a href="https://github.com/abdullah-daulatzai/weekwise">
             <div className="flex flex-col items-center justify-center rounded-md border border-gray-800 bg-gray-400 p-4 hover:bg-gray-500">
               <div className="flex w-16 flex-col items-center text-gray-900">
                 <FontAwesomeIcon icon={faGithub} className="text-7xl" />
