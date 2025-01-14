@@ -18,7 +18,7 @@ export default function Covid19Tracker() {
         </div>
         <div className="mt-32 flex flex-col items-center">
           <iframe
-            className="lg:h-100 h-54 sm:h-70 w-full max-w-xl   md:h-72 "
+            className="mx-auto mb-8 mt-4 h-56 w-full max-w-xl sm:h-72 md:h-80 lg:h-80"
             src="https://www.youtube.com/embed/bW-Ipgq67ZQ?si=Hfdbygg3LmSXVeMo"
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
