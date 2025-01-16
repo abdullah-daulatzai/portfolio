@@ -12,22 +12,22 @@ export default function AboutMe() {
             <h2 className="mt-4 animate-slide-up text-4xl font-bold text-white sm:mt-2">
               I'm <span className="text-blue-500">Abdullah!</span>
             </h2>
-            <div className="mt-6 flex flex-row items-center space-x-2">
-              <FontAwesomeIcon
-                icon={faLocationArrow}
-                className="animate-bounce text-yellow-400"
-                style={{ fontSize: '24px' }}
-              />
-              <p className="animate-fadeIn text-lg text-white">
-                Auckland, New Zealand
-              </p>
-            </div>
           </div>
           <div className="mt-2 animate-slide-up sm:mt-2 md:mt-4 lg:mt-4">
             <h2 className="font-montserrat text-2xl tracking-wider text-white sm:text-3xl md:text-4xl lg:ml-16 lg:text-2xl">
               FULL STACK DEVELOPER
             </h2>
           </div>
+        </div>
+        <div className="ml-16 mt-6 flex flex-row items-center space-x-2">
+          <FontAwesomeIcon
+            icon={faLocationArrow}
+            className="animate-bounce text-yellow-400"
+            style={{ fontSize: '24px' }}
+          />
+          <p className="animate-fadeIn font-audiowide  text-lg text-white">
+            Auckland, New Zealand
+          </p>
         </div>
 
         <div className="mt-10 flex flex-col gap-y-10 md:flex-row md:gap-x-10">

@@ -9,6 +9,7 @@ export default {
         raleway: ['Raleway', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
+        audiowide: ['Audiowide', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 1s ease-out',
