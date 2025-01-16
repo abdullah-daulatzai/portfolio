@@ -52,7 +52,7 @@ export default function Icon() {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 100 100"
-            className="animate-custom-bounce h-16 w-16 text-gray-700 hover:scale-125"
+            className="h-16 w-16 animate-custom-bounce text-gray-700 hover:scale-125"
           >
             <g fill="#8f069b">
               <circle cx="30" cy="30" r="40" />
@@ -89,7 +89,7 @@ export default function Icon() {
           <img
             src="/portfolio/tailwind.png"
             alt="Tailwind CSS"
-            className="animate-custom-bounce w-14 hover:scale-125"
+            className="w-14 animate-custom-bounce hover:scale-125"
           />
           <p className="mt-3 text-white">Tailwind CSS</p>
         </div>
@@ -97,7 +97,7 @@ export default function Icon() {
           <img
             src="/portfolio/sqlite.svg"
             alt="SQLite"
-            className="animate-custom-bounce w-16 hover:scale-125"
+            className="w-16 animate-custom-bounce hover:scale-125"
           />
           <p className="mt-2 text-white">SQLite</p>
         </div>
@@ -105,7 +105,7 @@ export default function Icon() {
           <img
             src="/portfolio/knex.svg"
             alt="Knex"
-            className="animate-custom-bounce w-12 hover:scale-125"
+            className="w-12 animate-custom-bounce hover:scale-125"
           />
           <p className="mt-2 text-white">Knex</p>
         </div>
@@ -113,7 +113,7 @@ export default function Icon() {
           <img
             src="/portfolio/git.svg"
             alt="Git"
-            className="animate-custom-bounce w-12 hover:scale-125"
+            className="w-12 animate-custom-bounce hover:scale-125"
           />
           <p className="mt-2 text-white">Git</p>
         </div>
@@ -121,7 +121,7 @@ export default function Icon() {
           <img
             src="/portfolio/mongodb.svg"
             alt="MongoDB"
-            className="animate-custom-bounce w-12 hover:scale-125"
+            className="w-12 animate-custom-bounce hover:scale-125"
           />
           <p className="mt-2 text-white">MongoDB</p>
         </div>
@@ -129,7 +129,7 @@ export default function Icon() {
           <img
             src="/portfolio/github.svg"
             alt="GitHub"
-            className="animate-custom-bounce w-12 text-gray-100 hover:scale-125"
+            className="w-12 animate-custom-bounce text-gray-100 hover:scale-125"
           />
           <p className="mt-2 text-white">GitHub</p>
         </div>
@@ -137,7 +137,7 @@ export default function Icon() {
           <img
             src="/portfolio/vitest.png"
             alt="Vitest"
-            className="animate-custom-bounce w-12 text-gray-100 hover:scale-125"
+            className="w-12 animate-custom-bounce text-gray-100 hover:scale-125"
           />
           <p className="mt-3 text-white">Vitest</p>
         </div>
@@ -145,7 +145,7 @@ export default function Icon() {
           <img
             src="/portfolio/mysql.svg"
             alt="MySQL"
-            className="animate-custom-bounce w-14 text-gray-100 hover:scale-125"
+            className="w-14 animate-custom-bounce text-gray-100 hover:scale-125"
           />
           <p className="text-white">MySQL</p>
         </div>
@@ -153,7 +153,7 @@ export default function Icon() {
           <img
             src="/portfolio/postman.svg"
             alt="Postman"
-            className="animate-custom-bounce w-14 text-gray-100 hover:scale-125"
+            className="w-14 animate-custom-bounce text-gray-100 hover:scale-125"
           />
           <p className="text-white">Postman</p>
         </div>
@@ -161,7 +161,7 @@ export default function Icon() {
           <img
             src="/portfolio/auth0.png"
             alt="Auth0"
-            className="animate-custom-bounce w-14 text-gray-100 hover:scale-125"
+            className="w-14 animate-custom-bounce text-gray-100 hover:scale-125"
           />
           <p className="text-white">Auth0</p>
         </div>

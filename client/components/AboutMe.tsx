@@ -1,17 +1,29 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faLocationArrow } from '@fortawesome/free-solid-svg-icons'
 export default function AboutMe() {
   return (
     <>
       <div className="py-10" id="about-me">
         <div className="sm:text-md flex flex-col items-center justify-center space-y-2 font-audiowide md:flex-row">
           <div className="text-shadow font-sans font-bold tracking-wide sm:text-3xl md:text-4xl lg:text-3xl">
-            <h1 className="animate-fade-in inline font-audiowide text-4xl text-white">
+            <h1 className="inline animate-fade-in font-audiowide text-4xl text-white">
               Kia ora,
             </h1>
-            <h2 className="animate-slide-up mt-4 text-4xl font-bold text-white sm:mt-2">
+            <h2 className="mt-4 animate-slide-up text-4xl font-bold text-white sm:mt-2">
               I'm <span className="text-blue-500">Abdullah!</span>
             </h2>
+            <div className="mt-6 flex flex-row items-center space-x-2">
+              <FontAwesomeIcon
+                icon={faLocationArrow}
+                className="animate-bounce text-yellow-400"
+                style={{ fontSize: '24px' }}
+              />
+              <p className="animate-fadeIn text-lg text-white">
+                Auckland, New Zealand
+              </p>
+            </div>
           </div>
-          <div className="animate-slide-up mt-2 sm:mt-2 md:mt-4 lg:mt-4">
+          <div className="mt-2 animate-slide-up sm:mt-2 md:mt-4 lg:mt-4">
             <h2 className="font-montserrat text-2xl tracking-wider text-white sm:text-3xl md:text-4xl lg:ml-16 lg:text-2xl">
               FULL STACK DEVELOPER
             </h2>
