@@ -61,7 +61,7 @@ export default function Nav() {
             <a href="#my_projects">Portfolio</a>
           </li>
           <li className="hover:scale-105 hover:text-blue-500">
-            <a href="https://drive.google.com/file/d/1i5-CWB3cyvSoJYn7__3q_juSrE8za0hY/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1o5tdrMtHRrWbiXGZdPXZq-9Twi6cC7gX/view?usp=sharing">
               My CV
             </a>
           </li>
@@ -101,7 +101,7 @@ export default function Nav() {
             <a href="#my_projects">Portfolio</a>
           </li>
           <li className="hover:scale-105 hover:text-blue-500">
-            <a href="https://drive.google.com/file/d/1i5-CWB3cyvSoJYn7__3q_juSrE8za0hY/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1o5tdrMtHRrWbiXGZdPXZq-9Twi6cC7gX/view?usp=sharing">
               My CV
             </a>
           </li>
