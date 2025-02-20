@@ -47,15 +47,15 @@ export default function AboutMe() {
               I am Abdullah, a curious Full-Stack Developer based in Auckland
               with a degree in Computer Science and Technology. My journey into
               software development has been driven by a love for solving
-              problems, creating smart solutions, and constantly learning
-              something new. Iam always up for challenges that help me grow and
-              improve. I really value teamwork and open communication because I
-              think the best ideas come from sharing and working together. I am
-              excited to work on projects that make a difference, learn from
-              others, and use technology to have a positive impact. When I am
-              not coding, you will probably find me out on a long walk or at a
-              social event, chatting with like-minded people. Thank you for
-              checking out my portfolio!
+              problems, creating smart solutions, and continuously learning new
+              things. I am always up for challenges that help me grow and
+              improve. I highly value teamwork and open communication because I
+              believe the best ideas come from collaboration and shared
+              knowledge. I am excited to work on projects that make a
+              difference, learn from others, and use technology to create a
+              positive impact. When I am not coding, you will probably find me
+              on a long walk or at a social event, chatting with like-minded
+              people. Thank you for checking out my portfolio!
             </p>
             <div className="mt-[10%]">
               <a
