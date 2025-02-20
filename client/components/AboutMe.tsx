@@ -44,18 +44,18 @@ export default function AboutMe() {
               About Me
             </h3>
             <p className="sm:text-md lg:text-md mt-4 max-w-xl text-justify text-gray-200">
-              I’m Abdullah, a Full-Stack Developer based in Auckland with a
-              degree in Computer Science and Technology. My journey into
+              I am Abdullah, a curious Full-Stack Developer based in Auckland
+              with a degree in Computer Science and Technology. My journey into
               software development has been driven by a love for solving
               problems, creating smart solutions, and constantly learning
-              something new. I’m always up for challenges that help me grow and
+              something new. Iam always up for challenges that help me grow and
               improve. I really value teamwork and open communication because I
-              think the best ideas come from sharing and working together. I’m
+              think the best ideas come from sharing and working together. I am
               excited to work on projects that make a difference, learn from
-              others, and use technology to have a positive impact. When I’m not
-              coding, you’ll probably find me out on a long walk or at a social
-              event, chatting with like-minded people. Thanks for stopping by my
-              site!
+              others, and use technology to have a positive impact. When I am
+              not coding, you will probably find me out on a long walk or at a
+              social event, chatting with like-minded people. Thank you for
+              checking out my portfolio!
             </p>
             <div className="mt-[10%]">
               <a
