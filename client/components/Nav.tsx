@@ -101,7 +101,7 @@ export default function Nav() {
             <a href="#my_projects">Portfolio</a>
           </li>
           <li className="hover:scale-105 hover:text-blue-500">
-            <a href="https://drive.google.com/file/d/1Ku0-tGw6zHm8pyaNpSeDc53CwKKiA_MX/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1V7yn40erSvZsi7l1BRUorUZdQ04NbLrZ/view?usp=sharing">
               My CV
             </a>
           </li>
