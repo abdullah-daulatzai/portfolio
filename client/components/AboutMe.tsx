@@ -60,7 +60,7 @@ export default function AboutMe() {
             <div className="mt-[10%]">
               <a
                 className="hover:brightness-15 rounded-md bg-gradient-to-r from-blue-500 to-blue-800 pb-2 pl-5 pr-5 pt-2 text-white transition-all duration-300 hover:scale-110 hover:text-yellow-500"
-                href="https://drive.google.com/file/d/1Ku0-tGw6zHm8pyaNpSeDc53CwKKiA_MX/view?usp=sharing"
+                href="https://drive.google.com/file/d/1V7yn40erSvZsi7l1BRUorUZdQ04NbLrZ/view?usp=sharing"
               >
                 My CV
               </a>
